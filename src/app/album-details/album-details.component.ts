@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { stringify } from 'querystring';
 import { collection } from '../../assets/data/collection';
 import { Location } from '@angular/common';
+import { ImagesComponent } from '../images/images.component';
 
 @Component({
   selector: 'app-album-details',
@@ -10,7 +11,13 @@ import { Location } from '@angular/common';
   styleUrls: ['./album-details.component.scss']
 })
 export class AlbumDetailsComponent implements OnInit {
-
+  @ViewChild(ImagesComponent)
+  private imagesComponent: ImagesComponent;
+  album: any;
+  visible: boolean;
+  data: any;
+  id: string;
+  images: any;
   type: any;
   constructor(private route: Router, location: Location) {
     route.events.subscribe((val) => {
@@ -32,16 +39,12 @@ export class AlbumDetailsComponent implements OnInit {
     this.visible = false;
   }
 
-  album: any;
-  visible: boolean;
-  data: any;
-  id: string;
-  images: any;
-
   open(id,name) {
     this.album = collection.albums[this.id].filter(val => val.id === id)[0];
     this.prepareAlbum();
     console.log(this.album);
+
+    
   }
 
   ngOnInit() {
@@ -56,6 +59,9 @@ export class AlbumDetailsComponent implements OnInit {
     console.log('this album!', this.album);
     
     this.visible = true;
+
+    // tell image component to display these images
+    this.imagesComponent.resetAndPopulate(this.album);
   }
 
 

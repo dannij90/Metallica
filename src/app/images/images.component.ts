@@ -11,8 +11,8 @@ export class ImagesComponent implements OnInit {
   data: any;
   @Input()
   visible: boolean;
-  @Output()
-  visibleChange = new EventEmitter<boolean>();
+  // @Output()
+  // visibleChange = new EventEmitter<boolean>();
 
   @Input()
   album: any;
@@ -50,15 +50,15 @@ export class ImagesComponent implements OnInit {
   ngOnInit() {
   }
 
-  ngAfterContentChecked() {
-    if(this.album)
-     this.populateImages();
+  resetAndPopulate(album) {
+    this.indexes = [0, 1, 2, 3];
+    this.selectedIndex = 0;
+    this.album = album;
+    this.populateImages();
   }
 
   close() {
     this.visible = false;
-    this.visibleChange.emit(this.visible);
-    console.log('closing .. ', this.visible);
   }
 
   changeImage(id) {
@@ -100,6 +100,7 @@ export class ImagesComponent implements OnInit {
     }
     this.visibleImages = newArr;
     console.log('new arr', this.visibleImages);
-    this.changeImage(0);
+    this.changeImage(this.selectedIndex);
+    this.visible = true;
   }
 }
