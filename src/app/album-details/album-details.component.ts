@@ -42,7 +42,6 @@ export class AlbumDetailsComponent implements OnInit {
     this.album = collection.albums[this.id].filter(val => val.id === id)[0];
     this.prepareAlbum();
     console.log(this.album);
-    this.visible = true;
   }
 
   ngOnInit() {
@@ -55,6 +54,8 @@ export class AlbumDetailsComponent implements OnInit {
     }
     this.album.imageArray = images;
     console.log('this album!', this.album);
+    
+    this.visible = true;
   }
 
 

@@ -50,6 +50,11 @@ export class ImagesComponent implements OnInit {
   ngOnInit() {
   }
 
+  ngAfterContentChecked() {
+    if(this.album)
+     this.populateImages();
+  }
+
   close() {
     this.visible = false;
     this.visibleChange.emit(this.visible);
