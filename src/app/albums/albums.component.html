@@ -1,0 +1,14 @@
+
+  <div class="album-grid">
+    <div *ngFor="let albums of objectKeys(data)">
+      <a href="" [routerLink]="'/Albums/' + albums">
+        <img class="album-img" src="{{ 'assets/album-img/' + albums + '.jpg' }}" />
+      </a>
+
+      <!--GET the name of the album-->
+      <div>
+        <h2 class="album-center">{{ data[albums][0].name }}</h2>
+      </div>
+    </div>
+  </div>
+

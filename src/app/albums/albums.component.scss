@@ -1,0 +1,20 @@
+.album-grid{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row-gap:20px;
+  background: linear-gradient(#485563, #29323c);
+  height: 100%;
+  padding-left: 200px;
+}
+
+.album-img{
+  width:180px;
+  height:180px;
+  border: 2.5px solid black;
+  margin-top:40px;
+}
+
+.album-center{
+  text-align:left;
+  font-family:serif;
+}

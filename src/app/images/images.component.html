@@ -1,0 +1,21 @@
+<div *ngIf="visible" class="image-container">
+
+  <div class="close-btn" (click)="close()">
+    x
+  </div>
+
+  <div class="big-image">
+      <img  src="{{selectedImage}}" />
+  </div>
+
+  <div class="small-img-container">
+
+    <!-- <div class="small-img" *ngFor="let image of images">
+        <img src="{{ image }}" />
+    </div> -->
+    <p class='left-arrow' (click)='dec()'>< </p>
+    <img class="small-img" *ngFor="let image of visibleImages; let i = index" (click)="changeImage(i)" src="{{ image }}" />
+    <p class='right-arrow' (click)='inc()'>> </p>
+  </div>
+
+</div>

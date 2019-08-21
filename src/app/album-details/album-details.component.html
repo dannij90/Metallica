@@ -1,0 +1,46 @@
+<div class="album-item">
+  <table>
+    <tr class="tw">
+      <th class="t-width">Name</th>
+      <th class="t-width">Country</th>
+      <th class="t-width">Year</th>
+      <th class="t-width">Label</th>
+      <th class="t-info">Info</th>
+    </tr>
+    <tr class="tw" *ngFor="let albums of data" (click)="open(albums.id, albums.name)">
+      <td class="name-bold">
+        {{ albums.name }}
+      </td>
+      <td>
+        {{ albums.country }}
+      </td>
+      <td>
+        {{ albums.year }}
+      </td>
+      <td>
+        {{ albums.label }}
+      </td>
+      <app-pretty [data]='albums.info'>
+        {{ albums.info }}
+      </app-pretty>
+    </tr>
+  </table>
+  <app-images [(visible)]="visible" [album]="album">
+
+  </app-images>
+</div>
+
+<!-- <div class="album-item">
+  <table>
+  <ul>
+    <li *ngFor="let albums of data">
+
+        {{albums.country}}
+        {{albums.year }}
+        {{albums.label}}
+        {{albums.info}}
+    </li>
+  </ul>
+</table>
+</div>
+-->

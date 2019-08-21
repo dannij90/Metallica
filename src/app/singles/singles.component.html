@@ -1,0 +1,20 @@
+<div class="singles-grid">
+  <div *ngFor="let singles of objectKeys(data)">
+    <a href="" [routerLink]="'/Singles/' + id + '/' + singles">
+      <img class="album-img" src="{{ 'assets/album-img/' + singles + '.jpg' }}" />
+    </a>
+
+    <div>
+        <h2 class="album-center">{{data[singles][0].name}}</h2>
+    </div>
+  </div>
+</div>
+
+<!---
+<div class="test">
+  <div *ngFor="let albums of objectKeys(data)">
+    <a href="" [routerLink]="'/Albums/' + albums"> <img class="album-img" src='{{ "assets/album-img/" + albums + ".jpg" }}'> </a>
+
+  </div>
+</div>
+-->

@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AlbumsComponent } from './albums/albums.component';
+import { SinglesComponent } from './singles/singles.component';
+import { BoxSetComponent } from './box-set/box-set.component';
+import { AlbumDetailsComponent } from './album-details/album-details.component';
+import { MakeWordPrettyComponent } from './make-word-pretty/make-word-pretty.component';
+import { ImagesComponent } from './images/images.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AlbumsComponent,
+    SinglesComponent,
+    BoxSetComponent,
+    AlbumDetailsComponent,
+    MakeWordPrettyComponent,
+    ImagesComponent
   ],
   imports: [
     BrowserModule,

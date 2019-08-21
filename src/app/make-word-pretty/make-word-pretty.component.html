@@ -1,0 +1,10 @@
+<td class="t-info">
+  <span *ngFor="let word of wordarr">
+    <span *ngIf="word === 'Promo'">
+     <b class="promo">{{ word }}</b>
+    </span>
+    <span *ngIf="word !== 'Promo'">
+      {{ word }}
+    </span>
+  </span>
+</td>
