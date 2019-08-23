@@ -9,12 +9,9 @@ import { DatastoreService } from '../datastore.service';
 export class ImagesComponent implements OnInit {
 
   data: any;
-  @Input()
   visible: boolean;
   // @Output()
   // visibleChange = new EventEmitter<boolean>();
-
-  @Input()
   album: any;
 
   images: Array<string>;
