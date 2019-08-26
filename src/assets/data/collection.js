@@ -132,7 +132,7 @@ export var collection = {
         label: 'Megaforce',
         info: 'silver label',
         url: "../../assets/photos/ridethelightning/1984/usa-megaforce",
-        images: 6,
+        images: 9,
         imagename: "usa-megaforce-"
       },
       {
@@ -143,7 +143,7 @@ export var collection = {
         label: 'Elektra/Asylum',
         info: 'AR version',
         url: "../../assets/photos/ridethelightning/1984/usa-elektra-ar",
-        images: 6,
+        images: 7,
         imagename: "usa-elektra-ar-"
       },
       {
