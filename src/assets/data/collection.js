@@ -9,7 +9,7 @@ export var collection = {
         label: 'Music For Nations',
         info: 'w/beige labels',
         url: "../../assets/photos/killemall/1983/france-mfn",
-        images: 6,
+        images: 7,
         imagename: "france-mfn-"
       },
       {
@@ -20,7 +20,7 @@ export var collection = {
         label: 'Roadrunner',
         info: 'w/grey labels, without MFN logo on back',
         url: "../../assets/photos/killemall/1983/holland-rr",
-        images: 6,
+        images: 8,
         imagename: "holland-rr-"
       },
       {
@@ -31,7 +31,7 @@ export var collection = {
         label: 'Megaforce',
         info: 'A-3 <-> MRI/069/A STERLING / A-5 <-> MRI 069-B STERLING',
         url: "../../assets/photos/killemall/1983/usa-megaforce",
-        images: 4,
+        images: 6,
         imagename: "usa-megaforce-"
       },
       {
@@ -42,7 +42,7 @@ export var collection = {
         label: 'Music For Nations',
         info: 'Picture disc without barcode',
         url: "../../assets/photos/killemall/1986/uk-mfn-pic",
-        images: 2,
+        images: 4,
         imagename: "uk-mfn-"
       },
       {
@@ -53,7 +53,7 @@ export var collection = {
         label: 'Elektra/Asylum',
         info: 'w/bonus tracks, SP version',
         url: "../../assets/photos/killemall/1988/usa-elektra",
-        images: 6,
+        images: 8,
         imagename: "usa-elektra-"
       },
       {
@@ -64,7 +64,7 @@ export var collection = {
         label: 'Phonogram/Vertigo',
         info: 'w/spaceship labels',
         url: "../../assets/photos/killemall/1989/europe-space",
-        images: 6,
+        images: 8,
         imagename: "europe-space-"
       },
       {
@@ -75,7 +75,7 @@ export var collection = {
         label: 'Phonogram/Vertigo',
         info: 'w/yellow labels with short writing around label',
         url: "../../assets/photos/killemall/1989/europe-yellow",
-        images: 6,
+        images: 8,
         imagename: "europe-yellow-"
       },
       {
@@ -97,7 +97,7 @@ export var collection = {
         label: 'Vertigo',
         info: 'w/Spaceship labels',
         url: "../../assets/photos/killemall/1990/brazil",
-        images: 5,
+        images: 6,
         imagename: "brazil-"
       },
       {
@@ -191,48 +191,61 @@ export var collection = {
         imagename: "brazil-"
       },
       {
+        id: 18,
         name: "Ride The Lightning",
         year: 2015,
         country: 'Europe',
         label: 'Blackened',
-        info: 'w/spaceship labels'
+        info: 'SEALED',
+        url: "../../assets/photos/ridethelightning/2015/europe-blackened",
+        images: 4,
+        imagename: "europe-blackened-"
       }
     ],
     masterofpuppets: [
       {
-        name: "Master Of Puppets",
-        year: 1986,
-        country: 'Australia',
-        label: 'WEA/Elektra',
-        info: 'white WEA label'
-      },
-      {
+        id: 19,
         name: "Master Of Puppets",
         year: 1986,
         country: 'Canada',
         label: 'Elektra/Asylum',
-        info: 'writing around top of label'
+        info: 'writing around top of label',
+        url: "../../assets/photos/masterofpuppets/1986/canada",
+        images: 7,
+        imagename: "canada-"
       },
       {
+        id: 20,
         name: "Master Of Puppets",
         year: 1986,
         country: 'France',
         label: 'N.E.W',
-        info: '2320 with black label'
+        info: '2320 with black label',
+        url: "../../assets/photos/masterofpuppets/1986/france-new",
+        images: 10,
+        imagename: "france-new-"
       },
       {
+        id: 21,
         name: "Master Of Puppets",
         year: 1986,
         country: 'Holland',
         label: 'Roadrunner',
-        info: 'w/MFN/RR labels'
+        info: 'w/MFN/RR labels',
+        url: "../../assets/photos/masterofpuppets/1986/holland",
+        images: 8,
+        imagename: "holland-"
       },
       {
+        id: 22,
         name: "Master Of Puppets",
         year: 1986,
         country: 'Japan',
         label: 'CBS/Sony',
-        info: 'w/Obi strip and poster'
+        info: 'w/Obi strip and poster',
+        url: "../../assets/photos/masterofpuppets/1986/japan",
+        images: 11,
+        imagename: "japan-"
       },
       {
         name: "Master Of Puppets",
