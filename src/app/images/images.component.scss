@@ -24,27 +24,23 @@
 
 .big-image {
   img {
-    position: fixed;
     display: block;
-    width: 555px;
-    height: 555px;
+    width: 980px;
+    height: 1240px;
     top: 0%;
-    left: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     border:white;
   }
  }
 
  .small-img-container {
 
-    position:absolute;
-    top:600px;
-    left: 300px;
+    position:fixed;
+    top:100px;
+    left: 0px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 100px;
+    grid-template-columns: 100px 100px 100px 100px;
     grid-gap: 30px;
 
 
@@ -59,9 +55,9 @@
  }
 
  .small-img {
-    grid-row: row;
+    grid-column: 25% 25% 25% 25%;
     width: 100px;
-    height: auto;
+    height: 100px;
  }
 
 .left-arrow,
