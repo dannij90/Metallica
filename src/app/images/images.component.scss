@@ -4,12 +4,16 @@
   background-color: black;
   width: 100%;
   height: 100%;
+  max-height: 100%;
   position: fixed;
   left: 0;
   top: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 1);
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: auto;
 
 }
 
@@ -23,46 +27,41 @@
 }
 
 .big-image {
+  grid-row: 1;
+  grid-column: 2;
   img {
     display: block;
-    width: 980px;
-    height: 1240px;
-    top: 0%;
+    width: 60%;
+    max-height: 100%;
+    top: 0;
     margin: auto;
     border:white;
   }
  }
+.image-selection-container {
+  padding-left: 50%;
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  grid-template-rows: [row1] auto [row2] 50% [row3] auto;
+  grid-gap: 30px;
 
+}
  .small-img-container {
-
-    position:fixed;
-    top:100px;
-    left: 0px;
+    grid-row: row2;
     display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-gap: 30px;
-
-
-
-    // grid-template-areas:
-    //   ". ."
-    //   "img img"
-    //   "img img"
-    //   ". .";
-
+    grid-auto-rows: auto;
+    grid-gap: 10px;
     border: 1px solid #000000;
  }
 
  .small-img {
-    grid-column: 25% 25% 25% 25%;
     width: 100px;
     height: 100px;
  }
 
 .left-arrow,
 .right-arrow {
-  grid-row: row;
   padding: 10px;
   font-size: 60px;
   color: white;
@@ -72,4 +71,11 @@
 .left-arrow,
 .right-arrow:hover {
   cursor: pointer;
+}
+
+.image-selection-left-arrow {
+  grid-row: row1;
+}
+.image-selection-right-arrow {
+  grid-row: row3;
 }

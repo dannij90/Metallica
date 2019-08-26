@@ -9,11 +9,21 @@
       <img  src="{{selectedImage}}" />
   </div>
 
-  <div class="small-img-container">
+  <div class="image-selection-container">
+    <!-- left arrow -->
+    <div class="image-selection-left-arrow">
+      <p class='left-arrow' (click)='dec()'>< </p> 
+    </div>
+    <!-- image previews -->
+    <div class="small-img-container">
+      <img class="small-img" *ngFor="let image of visibleImages; let i = index" (click)="changeImage(i)" src="{{ image }}" />
+    </div>
+    <!-- right arrow -->
+    <div class="image-selection-right-arrow">
+      <p class='right-arrow' (click)='inc()'>> </p>
+    </div>
 
-    <p class='left-arrow' (click)='dec()'>< </p>
-    <img class="small-img" *ngFor="let image of visibleImages; let i = index" (click)="changeImage(i)" src="{{ image }}" />
-    <p class='right-arrow' (click)='inc()'>> </p>
   </div>
+ 
 
 </div>
