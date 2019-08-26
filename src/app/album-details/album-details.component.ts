@@ -60,9 +60,25 @@ export class AlbumDetailsComponent implements OnInit {
     }
     return 0;
   }
+
+  revcompare(a, b) {
+    if ( a[this.keyword] > b[this.keyword] ){
+      return -1;
+    }
+    if ( a[this.keyword] < b[this.keyword]  ){
+      return 1;
+    }
+    return 0;
+  }
+
   changeSort(value) {
-    this.keyword = value;
-    this.data.sort((a, b) => this.compare(a, b));
+    if(value === this.keyword) {
+      this.data.sort((a, b) => this.revcompare(a, b));
+      this.keyword = '';
+    } else {
+      this.keyword = value;
+      this.data.sort((a, b) => this.compare(a, b));
+    }
   }
 
   prepareAlbum() {
