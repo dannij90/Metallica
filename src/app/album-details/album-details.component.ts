@@ -19,6 +19,7 @@ export class AlbumDetailsComponent implements OnInit {
   id: string;
   images: any;
   type: any;
+  keyword: string;
   constructor(private route: Router, location: Location) {
     route.events.subscribe((val) => {
       if(location.path() !== '') {
@@ -48,6 +49,20 @@ export class AlbumDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  compare(a, b) {
+    if ( a[this.keyword] < b[this.keyword] ){
+      return -1;
+    }
+    if ( a[this.keyword] > b[this.keyword]  ){
+      return 1;
+    }
+    return 0;
+  }
+  changeSort(value) {
+    this.keyword = value;
+    this.data.sort((a, b) => this.compare(a, b));
   }
 
   prepareAlbum() {

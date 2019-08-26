@@ -1,11 +1,11 @@
 <div class="album-item">
   <table>
     <tr class="tw">
-      <th class="t-width">Name</th>
-      <th class="t-width">Country</th>
-      <th class="t-width">Year</th>
-      <th class="t-width">Label</th>
-      <th class="t-info">Info</th>
+      <th class="t-width" (click)="changeSort('name')">Name</th>
+      <th class="t-width" (click)="changeSort('country')">Country</th>
+      <th class="t-width" (click)="changeSort('year')">Year</th>
+      <th class="t-width" (click)="changeSort('label')">Label</th>
+      <th class="t-info" (click)="changeSort('info')">Info</th>
     </tr>
     <tr class="tw" *ngFor="let albums of data" (click)="open(albums.id, albums.name)">
       <td class="name-bold">
