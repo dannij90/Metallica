@@ -142,37 +142,53 @@ export var collection = {
         country: 'USA',
         label: 'Elektra/Asylum',
         info: 'AR version',
-        url: "../..assets/photos/ridethelightning/1984/usa-elektra-ar",
+        url: "../../assets/photos/ridethelightning/1984/usa-elektra-ar",
         images: 6,
         imagename: "usa-elektra-ar-"
       },
       {
+        id: 14,
         name: "Ride The Lightning",
         year: 1986,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Picture disc without barcode'
+        info: 'Picture disc without barcode',
+        url: "../../assets/photos/ridethelightning/1986/uk-mfn-pic",
+        images: 4,
+        imagename: "uk-mfn-pic-"
       },
       {
+        id: 15,
         name: "Ride The Lightning",
         year: 1987,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'DMM 2LP gatefold with merchandise sheet'
+        info: 'DMM 2LP gatefold with merchandise sheet',
+        url: "../../assets/photos/ridethelightning/1987/uk-mfn",
+        images: 9,
+        imagename: "uk-mfn-"
       },
       {
+        id: 16,
         name: "Ride The Lightning",
         year: 1989,
         country: 'Europe',
         label: 'Phonogram/Vertigo',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels',
+        url: "../../assets/photos/ridethelightning/1989/europe-spaceship",
+        images: 7,
+        imagename: "europe-spaceship-"
       },
       {
+        id: 17,
         name: "Ride The Lightning",
         year: 1990,
         country: 'Brazil',
         label: 'Vertigo',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels',
+        url: "../../assets/photos/ridethelightning/1990/brazil",
+        images: 5,
+        imagename: "brazil-"
       },
       {
         name: "Ride The Lightning",
