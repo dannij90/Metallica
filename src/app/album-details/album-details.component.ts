@@ -37,15 +37,13 @@ export class AlbumDetailsComponent implements OnInit {
       }
 
     });
-    this.visible = false;
+   // this.visible = false;
   }
 
   open(id,name) {
     this.album = collection.albums[this.id].filter(val => val.id === id)[0];
     this.prepareAlbum();
     console.log(this.album);
-
-    
   }
 
   ngOnInit() {
@@ -88,8 +86,8 @@ export class AlbumDetailsComponent implements OnInit {
     }
     this.album.imageArray = images;
     console.log('this album!', this.album);
-    
-    this.visible = true;
+
+    //this.visible = true;
 
     // tell image component to display these images
     this.imagesComponent.resetAndPopulate(this.album);

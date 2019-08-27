@@ -248,122 +248,154 @@ export var collection = {
         imagename: "japan-"
       },
       {
+        id: 23,
         name: "Master Of Puppets",
         year: 1986,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'white details on back, no barcode'
+        info: 'picture disc without barcode',
+        url: "../../assets/photos/masterofpuppets/1986/uk-pic",
+        images: 4,
+        imagename: "uk-pic-"
       },
       {
-        name: "Master Of Puppets",
-        year: 1986,
-        country: 'UK',
-        label: 'Music For Nations',
-        info: 'picture disc without barcode'
-      },
-      {
+        id: 24,
         name: "Master Of Puppets",
         year: 1986,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: 'SP version'
+        info: 'SP version',
+        url: "../../assets/photos/masterofpuppets/1986/usa-sp",
+        images: 6,
+        imagename: "usa-sp-"
       },
       {
+        id: 25,
         name: "Master Of Puppets",
         year: 1986,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: 'Columbia House issue'
+        info: 'Columbia House issue',
+        url: "../../assets/photos/masterofpuppets/1986/usa-col",
+        images: 7,
+        imagename: "usa-col-"
       },
       {
+        id: 26,
         name: "Master Of Puppets",
         year: 1987,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Double LP with gatefold cover, sticker and poster'
+        info: 'Double LP with gatefold cover, includes a poster',
+        url: "../../assets/photos/masterofpuppets/1987/uk-dmm",
+        images: 10,
+        imagename: "uk-dmm-"
       },
       {
+        id: 27,
         name: "Master Of Puppets",
         year: 1989,
         country: 'Europe',
         label: 'Vertigo/Phonogram',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels',
+        url: "../../assets/photos/masterofpuppets/1989/europe-spaceship",
+        images: 7,
+        imagename: "europe-spaceship-"
       },
       {
+        id: 28,
         name: "Master Of Puppets",
-        year: 1989,
-        country: 'Europe',
-        label: 'Phonogram/Vertigo',
-        info: 'w/yellow labels with long text writing around label'
-      },
-      {
-        name: "Master Of Puppets",
-        year: 1989,
+        year: 1990,
         country: 'Mexico',
         label: 'Polygram/Vertigo',
-        info: 'translucent brown vinyl'
+        info: 'translucent brown vinyl',
+        url: "../../assets/photos/masterofpuppets/1990/mexico",
+        images: 11,
+        imagename: "mexico-"
       },
       {
+        id: 29,
         name: "Master Of Puppets",
         year: 2008,
         country: 'Europe',
         label: 'Universal',
-        info: 're-issue'
+        info: 're-issue',
+        url: "../../assets/photos/masterofpuppets/2008/europe",
+        images: 3,
+        imagename: "europe-"
       }
     ],
     andjusticeforall: [
       {
-        name: "...And Justice For All",
-        year: 1988,
-        country: 'Australia',
-        label: 'Polygram/Vertigo',
-        info: 'w/2LP on cover'
-      },
-      {
+        id: 30,
         name: "...And Justice For All",
         year: 1988,
         country: 'Holland',
         label: 'Phonogram/Vertigo',
-        info: '2LP'
+        info: '2LP',
+        url: "../../assets/photos/andjusticeforall/1988/holland",
+        images: 10,
+        imagename: "holland-"
       },
       {
+        id: 31,
         name: "...And Justice For All",
         year: 1988,
         country: 'Japan',
         label: 'CBS/Sony',
-        info: 'Sony-w/white labels, w/obi strip, booklet lyrics, japanese insert & bonus track'
+        info: 'Sony-w/white labels, w/obi strip, booklet lyrics, japanese insert & bonus track',
+        url: "../../assets/photos/andjusticeforall/1988/japan",
+        images: 13,
+        imagename: "japan-"
       },
       {
+        id: 32,
         name: "...And Justice For All",
         year: 1988,
         country: 'Korea',
         label: 'Phonogram/Vertigo',
-        info: 'Gatefold sleeve, w/blue labels'
+        info: 'Gatefold sleeve, w/blue labels',
+        url: "../../assets/photos/andjusticeforall/1988/korea",
+        images: 10,
+        imagename: "korea-"
       },
       {
+        id: 33,
         name: "...And Justice For All",
         year: 1988,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: 'Green hype sticker on cover'
+        info: 'Green hype sticker on cover',
+        url: "../../assets/photos/andjusticeforall/1988/usa-green-sticker",
+        images: 11,
+        imagename: "usa-"
       },
       {
+        id: 34,
         name: "...And Justice For All",
         year: 2008,
         country: 'Europe',
         label: 'Universal/Vertigo',
-        info: 'Deluxe 4LP box set with lyrics insert and bellyband, sealed'
+        info: 'Deluxe 4LP box set with lyrics insert and bellyband, sealed',
+        url: "../../assets/photos/andjusticeforall/2008/europe-box",
+        images: 4,
+        imagename: "eu-box-"
       }
     ],
     blackalbum: [
       {
+        id: 35,
         name: "Metallica",
         year: 1991,
         country: 'Holland',
         label: 'Vertigo',
-        info: 'Double album'
+        info: 'Double album',
+        url: "../../assets/photos/blackalbum/1991/holland",
+        images: 10,
+        imagename: "holland-"
       },
       {
+        id: 36,
         name: "Metallica",
         year: 1991,
         country: 'Venezuela',
@@ -371,6 +403,7 @@ export var collection = {
         info: 'w/spaceship labels'
       },
       {
+        id: 37,
         name: "Metallica",
         year: 2014,
         country: 'USA',
@@ -380,6 +413,7 @@ export var collection = {
     ],
     load: [
       {
+        id: 38,
         name: "Load",
         year: 1996,
         country: 'UK',
@@ -389,6 +423,7 @@ export var collection = {
     ],
     reload: [
       {
+        id: 39,
         name: "Reload",
         year: 1997,
         country: 'UK',
@@ -398,6 +433,7 @@ export var collection = {
     ],
     garageinc: [
       {
+        id: 40,
         name: "Garage Inc.",
         year: 1998,
         country: 'USA',
@@ -407,6 +443,7 @@ export var collection = {
     ],
     's&m': [
       {
+        id: 41,
         name: "S&M",
         year: 1999,
         country: 'USA',
@@ -416,6 +453,7 @@ export var collection = {
     ],
     'st.anger': [
       {
+        id: 42,
         name: "St.Anger",
         year: 2015,
         country: 'Europe',
@@ -425,6 +463,7 @@ export var collection = {
     ],
     deathmagnetic: [
       {
+        id: 43,
         name: "Death Magnetic",
         year: 2016,
         country: 'Europe',
@@ -434,6 +473,7 @@ export var collection = {
     ],
     hardwired: [
       {
+        id: 44,
         name: "Hardwired... To Self-Destruct",
         year: 2016,
         country: 'Europe',
@@ -441,6 +481,7 @@ export var collection = {
         info: 'Red Translucent Marble 2LP ltd to 15.000 copies'
       },
       {
+        id: 45,
         name: "Hardwired... To Self-Destruct",
         year: 2016,
         country: 'Europe',
@@ -452,6 +493,7 @@ export var collection = {
   singles7: {
     eyeofthebeholder: [
       {
+        id: 46,
         name: "Eye Of The Beholder",
         year: 1988,
         country: 'USA',
@@ -459,6 +501,7 @@ export var collection = {
         info: "Promo in a elektra sleeve, SP version"
       },
       {
+        id: 47,
         name: "Eye Of The Beholder",
         year: 1988,
         country: 'USA',
@@ -466,6 +509,7 @@ export var collection = {
         info: "Promo in a elektra sleeve, AR version"
       },
       {
+        id: 48,
         name: "Eye Of The Beholder",
         year: 1988,
         country: 'USA',
@@ -473,6 +517,7 @@ export var collection = {
         info: "SP version w/HEtfield"
       },
       {
+        id: 49,
         name: "Eye Of The Beholder",
         year: 1988,
         country: 'USA',
@@ -482,22 +527,17 @@ export var collection = {
     ],
     harvesterofsorrow: [
       {
+        id: 50,
         name: "Harvester Of Sorrow",
         year: 1988,
         country: 'Italy',
         label: 'Polygram',
         info: "Promo in a polygram sleeve, split promo"
       },
-      {
-        name: "Harvester Of Sorrow",
-        year: 1988,
-        country: 'UK',
-        label: 'Vertigo',
-        info: "Promo - white unique sleeve"
-      }
     ],
     one: [
       {
+        id: 51,
         name: "One",
         year: 1989,
         country: 'Japan',
@@ -505,6 +545,7 @@ export var collection = {
         info: "Promo - Orange label"
       },
       {
+        id: 52,
         name: "One",
         year: 1989,
         country: 'UK',
@@ -512,6 +553,7 @@ export var collection = {
         info: "Brown label w/sticker (poster missing)"
       },
       {
+        id: 53,
         name: "One",
         year: 1989,
         country: 'UK',
@@ -519,6 +561,7 @@ export var collection = {
         info: "Brown label"
       },
       {
+        id: 54,
         name: "One",
         year: 1989,
         country: 'UK',
@@ -526,13 +569,7 @@ export var collection = {
         info: "Silver label"
       },
       {
-        name: "One",
-        year: 1989,
-        country: 'USA',
-        label: 'Elektra/Asylum',
-        info: "grey labels"
-      },
-      {
+        id: 55,
         name: "One",
         year: 1989,
         country: 'USA',
@@ -540,6 +577,7 @@ export var collection = {
         info: "Red/Black labels - AR version"
       },
       {
+        id: 56,
         name: "One",
         year: 1989,
         country: 'USA',
@@ -547,6 +585,7 @@ export var collection = {
         info: "Red/Black labels - SP version"
       },
       {
+        id: 57,
         name: "One",
         year: 1989,
         country: 'W.Germany',
@@ -554,6 +593,7 @@ export var collection = {
         info: "Silver label w/large center hole"
       },
       {
+        id: 58,
         name: "One",
         year: 1989,
         country: 'W.Germany',
@@ -563,11 +603,15 @@ export var collection = {
     ],
     entersandman: [
       {
+        id: 59,
         name: "Enter Sandman",
         year: 1991,
         country: 'France',
         label: 'Vertigo',
-        info: "Promo with envelope sleeve w/title sticker & french promo sticker on back"
+        info: "Promo with envelope sleeve w/title sticker & french promo sticker on back",
+        url: "../../assets/photos/7singles/entersandman/france-promo",
+        images: 8,
+        imagename: "france-promo-"
       },
       {
         name: "Enter Sandman",

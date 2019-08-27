@@ -15,7 +15,6 @@ export class AlbumsComponent implements OnInit {
 
   ngOnInit() {
     this.data = collection.albums;
-
   }
 
 }
