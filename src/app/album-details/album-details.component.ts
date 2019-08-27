@@ -56,6 +56,14 @@ export class AlbumDetailsComponent implements OnInit {
     if ( a[this.keyword] > b[this.keyword]  ){
       return 1;
     }
+
+    if ( a['country'] < b['country'] ){
+      return -1;
+    }
+
+    if ( a['country'] > b['country']  ){
+      return 1;
+    }
     return 0;
   }
 
@@ -66,6 +74,15 @@ export class AlbumDetailsComponent implements OnInit {
     if ( a[this.keyword] < b[this.keyword]  ){
       return 1;
     }
+
+    if ( a['country'] < b['country'] ){
+      return -1;
+    }
+
+    if ( a['country'] > b['country']  ){
+      return 1;
+    }
+
     return 0;
   }
 
