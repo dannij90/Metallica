@@ -498,7 +498,10 @@ export var collection = {
         year: 1988,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "Promo in a elektra sleeve, SP version"
+        info: "Promo in a elektra sleeve, SP version",
+        url: "../../assets/photos/7singles/eyeofthebeholder/usa-promo-sp",
+        images: 5,
+        imagename: "promo-sp-"
       },
       {
         id: 47,
@@ -506,7 +509,10 @@ export var collection = {
         year: 1988,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "Promo in a elektra sleeve, AR version"
+        info: "Promo in a elektra sleeve, AR version",
+        url: "../../assets/photos/7singles/eyeofthebeholder/usa-promo-ar",
+        images: 4,
+        imagename: "promo-ar-"
       },
       {
         id: 48,
