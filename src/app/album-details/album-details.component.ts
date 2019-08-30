@@ -14,6 +14,7 @@ export class AlbumDetailsComponent implements OnInit {
   @ViewChild(ImagesComponent)
   private imagesComponent: ImagesComponent;
   album: any;
+  single: any;
   visible: boolean;
   data: any;
   id: string;
@@ -40,11 +41,25 @@ export class AlbumDetailsComponent implements OnInit {
    // this.visible = false;
   }
 
-  open(id,name) {
-    this.album = collection.albums[this.id].filter(val => val.id === id)[0];
+  open( id, name) {
+
+    if (this.type === 'Singles') {
+      this.album = collection['singles7'][this.id].filter(val => val.id === id)[0];
+    } else {
+      this.album = collection.albums[this.id].filter(val => val.id === id)[0];
+    }
     this.prepareAlbum();
     console.log(this.album);
+
+
+
+     /* this.album = collection.albums[this.id].filter(val => val.id === id)[0];
+      this.prepareAlbum();
+      console.log(this.album);*/
   }
+
+
+
 
   ngOnInit() {
   }
@@ -108,6 +123,20 @@ export class AlbumDetailsComponent implements OnInit {
 
     // tell image component to display these images
     this.imagesComponent.resetAndPopulate(this.album);
+  }
+
+  prepareSingleSeven() {
+    let images = new Array<string>();
+    for(let i = 0; i < this.single.images; i++) {
+      images.push(this.single.url + '/' + this.single.imagename + (i + 1) + '.jpg');
+    }
+    this.single.imageArray = images;
+    console.log('this album!', this.single);
+
+    //this.visible = true;
+
+    // tell image component to display these images
+    this.imagesComponent.resetAndPopulate(this.single);
   }
 
 

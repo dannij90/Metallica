@@ -400,7 +400,10 @@ export var collection = {
         year: 1991,
         country: 'Venezuela',
         label: 'Vertigo/Sonografica',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels (Cover in rough condition)',
+        url: "../../assets/photos/blackalbum/1991/venezuela",
+        images: 4,
+        imagename: "ven-"
       },
       {
         id: 37,
@@ -408,7 +411,10 @@ export var collection = {
         year: 2014,
         country: 'USA',
         label: 'Blackened',
-        info: '2LP repress w/sticker'
+        info: '2LP repress w/sticker',
+        url: "../../assets/photos/blackalbum/2014/usa",
+        images: 4,
+        imagename: "usa-"
       }
     ],
     load: [
@@ -418,7 +424,10 @@ export var collection = {
         year: 1996,
         country: 'UK',
         label: 'Vertigo',
-        info: '2LP Gatefold'
+        info: '2LP Gatefold',
+        url: "../../assets/photos/load/1996/uk",
+        images: 11,
+        imagename: "load-"
       }
     ],
     reload: [
@@ -428,7 +437,10 @@ export var collection = {
         year: 1997,
         country: 'UK',
         label: 'Vertigo',
-        info: '2LP Gatefold w/sticker, Sealed'
+        info: '2LP Gatefold w/sticker, Sealed',
+        url: "../../assets/photos/reload/1996/uk",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     garageinc: [
@@ -438,7 +450,10 @@ export var collection = {
         year: 1998,
         country: 'USA',
         label: 'Elektra',
-        info: '3LP Gatefold w/grey label'
+        info: '3LP Gatefold w/grey label',
+        url: "../../assets/photos/garageinc/1998/usa",
+        images: 15,
+        imagename: "usa-"
       }
     ],
     's&m': [
@@ -448,7 +463,10 @@ export var collection = {
         year: 1999,
         country: 'USA',
         label: 'Elektra',
-        info: '3LP Gatefold w/sticker'
+        info: '3LP Gatefold w/sticker',
+        url: "../../assets/photos/sm/1999/usa",
+        images: 15,
+        imagename: "usa-"
       }
     ],
     'st.anger': [
@@ -458,7 +476,10 @@ export var collection = {
         year: 2015,
         country: 'Europe',
         label: 'Blackened',
-        info: '2LP Gatefold'
+        info: '2LP Gatefold',
+        url: "../../assets/photos/stanger/2015/europe",
+        images: 10,
+        imagename: "europe-"
       }
     ],
     deathmagnetic: [
@@ -468,7 +489,10 @@ export var collection = {
         year: 2016,
         country: 'Europe',
         label: 'Blackened',
-        info: '2LP Gatefold'
+        info: '2LP Gatefold',
+        url: "../../assets/photos/deathmagnetic/2016/europe",
+        images: 3,
+        imagename: "europe-"
       }
     ],
     hardwired: [
@@ -478,7 +502,10 @@ export var collection = {
         year: 2016,
         country: 'Europe',
         label: 'Blackened',
-        info: 'Red Translucent Marble 2LP ltd to 15.000 copies'
+        info: 'Red Translucent Marble 2LP ltd to 15.000 copies',
+        url: "../../assets/photos/hardwired/2016/europe-red",
+        images: 4,
+        imagename: "europe-"
       },
       {
         id: 45,
@@ -486,7 +513,10 @@ export var collection = {
         year: 2016,
         country: 'Europe',
         label: 'Blackened',
-        info: '3LP Box (blue/yellow/red vinyls)'
+        info: '3LP Box (blue/yellow/red vinyls)',
+        url: "../../assets/photos/hardwired/2016/europe-box",
+        images: 30,
+        imagename: "box-"
       }
     ]
   },
@@ -520,7 +550,10 @@ export var collection = {
         year: 1988,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "SP version w/HEtfield"
+        info: "SP version w/HEtfield",
+        url: "../../assets/photos/7singles/eyeofthebeholder/usa-sp",
+        images: 4,
+        imagename: "usa-sp-"
       },
       {
         id: 49,
@@ -528,7 +561,10 @@ export var collection = {
         year: 1988,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "AR version w/HAtfield"
+        info: "AR version w/HAtfield",
+        url: "../../assets/photos/7singles/eyeofthebeholder/usa-ar",
+        images: 4,
+        imagename: "usa-ar-"
       }
     ],
     harvesterofsorrow: [
@@ -538,7 +574,10 @@ export var collection = {
         year: 1988,
         country: 'Italy',
         label: 'Polygram',
-        info: "Promo in a polygram sleeve, split promo"
+        info: "Promo in a polygram sleeve, split promo",
+        url: "../../assets/photos/7singles/harvesterofsorrow/italy-promo",
+        images: 4,
+        imagename: "italy-promo-"
       },
     ],
     one: [
@@ -548,7 +587,10 @@ export var collection = {
         year: 1989,
         country: 'Japan',
         label: 'CBS/Sony',
-        info: "Promo - Orange label"
+        info: "Promo - Orange label",
+        url: "../../assets/photos/7singles/one/japan-promo-cbs",
+        images: 5,
+        imagename: "jap-"
       },
       {
         id: 52,
@@ -556,7 +598,10 @@ export var collection = {
         year: 1989,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "Brown label w/sticker (poster missing)"
+        info: "Brown label w/sticker (poster missing)",
+        url: "../../assets/photos/7singles/one/uk-poster",
+        images: 4,
+        imagename: "uk-poster-"
       },
       {
         id: 53,
@@ -564,7 +609,10 @@ export var collection = {
         year: 1989,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "Brown label"
+        info: "Brown label",
+        url: "../../assets/photos/7singles/one/uk-brown",
+        images: 5,
+        imagename: "uk-brown-"
       },
       {
         id: 54,
@@ -572,7 +620,10 @@ export var collection = {
         year: 1989,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "Silver label"
+        info: "Silver label",
+        url: "../../assets/photos/7singles/one/uk-silver",
+        images: 5,
+        imagename: "uk-silver-"
       },
       {
         id: 55,
@@ -580,7 +631,10 @@ export var collection = {
         year: 1989,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "Red/Black labels - AR version"
+        info: "Red/Black labels - AR version",
+        url: "../../assets/photos/7singles/one/usa-ar",
+        images: 5,
+        imagename: "usa-ar-"
       },
       {
         id: 56,
@@ -588,7 +642,10 @@ export var collection = {
         year: 1989,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "Red/Black labels - SP version"
+        info: "Red/Black labels - SP version",
+        url: "../../assets/photos/7singles/one/usa-sp",
+        images: 5,
+        imagename: "usa-sp-"
       },
       {
         id: 57,
@@ -596,16 +653,11 @@ export var collection = {
         year: 1989,
         country: 'W.Germany',
         label: 'Phonogram/Vertigo',
-        info: "Silver label w/large center hole"
+        info: "Silver label w/large center hole - Includes a pink release info sheet",
+        url: "../../assets/photos/7singles/one/west-germany",
+        images: 5,
+        imagename: "wgermany-"
       },
-      {
-        id: 58,
-        name: "One",
-        year: 1989,
-        country: 'W.Germany',
-        label: 'Phonogram/Vertigo',
-        info: "Includes a pink release info sheet"
-      }
     ],
     entersandman: [
       {
@@ -620,177 +672,259 @@ export var collection = {
         imagename: "france-promo-"
       },
       {
+        id: 60,
         name: "Enter Sandman",
         year: 1991,
         country: 'Italy',
         label: 'Polygram',
-        info: "Promo - split promo w/jukebox strip"
+        info: "Promo - split promo w/jukebox strip",
+        url: "../../assets/photos/7singles/entersandman/italy-promo",
+        images: 4,
+        imagename: "italy-promo-"
       },
       {
+        id: 61,
         name: "Enter Sandman",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "Promo - jukebox promo w/black labels"
+        info: "Promo - jukebox promo w/black labels",
+        url: "../../assets/photos/7singles/entersandman/uk-promo",
+        images: 4,
+        imagename: "uk-promo-"
       },
       {
+        id: 62,
         name: "Enter Sandman",
         year: 1991,
         country: 'Europe',
         label: 'Phonogram/Vertigo',
-        info: "Black snake on cover"
+        info: "Two different copies \n one has a german promotional phonogram sheet and a minor differnet matrix detail. A side has B-2, while the other one has B-1",
+        url: "../../assets/photos/7singles/entersandman/europe",
+        images: 5,
+        imagename: "europe-"
       },
       {
+        id: 63,
         name: "Enter Sandman",
         year: 1991,
         country: 'France',
         label: 'Vertigo',
-        info: "Silver label w/logo sticker on cover"
+        info: "Silver label w/logo sticker on cover",
+        url: "../../assets/photos/7singles/entersandman/france",
+        images: 5,
+        imagename: "france-"
       },
       {
+        id: 64,
         name: "Enter Sandman",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "Picture disc, w/sleeve & sticker"
+        info: "Picture disc, w/sleeve & sticker",
+        url: "../../assets/photos/7singles/entersandman/uk-pic",
+        images: 4,
+        imagename: "uk-pic-"
       }
     ],
     unforgiven: [
       {
+        id: 65,
         name: "The Unforgiven",
         year: 1991,
         country: 'Italy',
         label: 'Vertigo',
-        info: "Promo w/jukebox strip"
+        info: "Promo w/jukebox strip",
+        url: "../../assets/photos/7singles/unforgiven/italy-promo",
+        images: 4,
+        imagename: "italy-promo-"
       },
       {
+        id: 66,
         name: "The Unforgiven",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "Promo w/Release date stickers"
+        info: "Promo w/Release date stickers",
+        url: "../../assets/photos/7singles/unforgiven/uk-promo",
+        images: 4,
+        imagename: "uk-"
       },
       {
+        id: 67,
         name: "The Unforgiven",
         year: 1991,
         country: 'France',
         label: 'Phonogram/Vertigo',
-        info: "Clear vinyl w/tattoo & sticker (sealed)"
+        info: "Clear vinyl w/tattoo & sticker (sealed)",
+        url: "../../assets/photos/7singles/unforgiven/france-clear",
+        images: 4,
+        imagename: "france-"
       },
       {
+        id: 68,
         name: "The Unforgiven",
         year: 1991,
         country: 'Germany',
         label: 'Vertigo',
-        info: "w/silver label w/large center hole"
+        info: "w/silver label w/large center hole",
+        url: "../../assets/photos/7singles/unforgiven/germany-silver",
+        images: 4,
+        imagename: "g-"
       },
       {
+        id: 69,
         name: "The Unforgiven",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "w/swirl label"
+        info: "w/swirl label",
+        url: "../../assets/photos/7singles/unforgiven/uk-swirl",
+        images: 4,
+        imagename: "uk-swirl-"
       },
       {
+        id: 70,
         name: "The Unforgiven",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "w/swirl label"
+        info: "w/silver label",
+        url: "../../assets/photos/7singles/unforgiven/uk-silver",
+        images: 4,
+        imagename: "uk-silver-"
       },
       {
+        id: 71,
         name: "The Unforgiven",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "w/silver label"
-      },
-      {
-        name: "The Unforgiven",
-        year: 1991,
-        country: 'UK',
-        label: 'Vertigo',
-        info: "Picture disc"
+        info: "Picture disc",
+        url: "../../assets/photos/7singles/unforgiven/uk-pic",
+        images: 4,
+        imagename: "uk-pic-"
       }
     ],
     nothingelsematters: [
       {
+        id: 72,
         name: "Nothing Else Matters",
         year: 1991,
         country: 'Italy',
         label: 'Polygram',
-        info: "Promo - split"
+        info: "Promo - split",
+        url: "../../assets/photos/7singles/nothingelsematters/italy-promo",
+        images: 4,
+        imagename: "italy-"
       },
       {
+        id: 73,
         name: "Nothing Else Matters",
         year: 1992,
         country: 'France',
         label: 'Phonogram/Vertigo',
-        info: "w/2 stickers, foldout poster sleeve (sealed)"
+        info: "w/2 stickers, foldout poster sleeve (sealed)",
+        url: "../../assets/photos/7singles/nothingelsematters/france-poster",
+        images: 5,
+        imagename: "france-poster-"
       },
       {
+        id: 74,
         name: "Nothing Else Matters",
         year: 1992,
         country: 'France',
         label: 'Vertigo',
-        info: "Silver label"
+        info: "Silver label, sleeve is most likely UK but matrix says made in france",
+        url: "../../assets/photos/7singles/nothingelsematters/france-silver",
+        images: 5,
+        imagename: "france-"
       },
       {
+        id: 75,
         name: "Nothing Else Matters",
         year: 1992,
         country: 'Germany',
         label: 'Vertigo',
-        info: "White label, large center hole"
+        info: "White label, large center hole",
+        url: "../../assets/photos/7singles/nothingelsematters/germany",
+        images: 4,
+        imagename: "germany-"
       },
       {
+        id: 76,
         name: "Nothing Else Matters",
         year: 1992,
         country: 'UK',
         label: 'Vertigo',
-        info: "Swirl label"
+        info: "Swirl label",
+        url: "../../assets/photos/7singles/nothingelsematters/uk-swirl",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     whereverimayroam: [
       {
+        id:  77,
         name: "Wherever I May Roam",
         year: 1992,
         country: 'France',
         label: 'Vertigo',
-        info: "Silver label"
+        info: "Silver label",
+        url: "../../assets/photos/7singles/whereverimayroam/france",
+        images: 4,
+        imagename: "france-"
       },
       {
+        id: 78,
         name: "Wherever I May Roam",
         year: 1992,
         country: 'Germany',
         label: 'Vertigo',
-        info: "White label, w/large center hole"
+        info: "White label, w/large center hole",
+        url: "../../assets/photos/7singles/whereverimayroam/germany",
+        images: 4,
+        imagename: "germany-"
       },
       {
+        id: 79,
         name: "Wherever I May Roam",
         year: 1992,
         country: 'UK',
         label: 'Vertigo',
-        info: "Swirl label"
+        info: "Swirl label",
+        url: "../../assets/photos/7singles/whereverimayroam/uk-swirl",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     sadbuttrue: [
       {
+        id: 80,
         name: "Sad But True",
         year: 1993,
         country: 'Germany',
         label: 'Vertigo',
-        info: "White label, w/large center hole"
+        info: "White label, w/large center hole",
+        url: "../../assets/photos/7singles/sadbuttrue/germany",
+        images: 4,
+        imagename: "germany-"
       },
       {
+        id: 81,
         name: "Sad But True",
         year: 1993,
-        country: 'UK',
+        country: 'France',
         label: 'Vertigo',
-        info: "Black label, sticker on sleeve"
+        info: "Black label, sticker on sleeve, matrix says MADE IN FRANCE",
+        url: "../../assets/photos/7singles/sadbuttrue/france",
+        images: 5,
+        imagename: "france-"
       }
     ],
     untilitsleeps: [
       {
+        id: 82,
         name: "Until It Sleeps",
         year: 1996,
         country: 'France',
@@ -800,6 +934,7 @@ export var collection = {
     ],
     herooftheday: [
       {
+        id: 83,
         name: "Hero Of The Day",
         year: 1996,
         country: 'France',
@@ -809,6 +944,7 @@ export var collection = {
     ],
     mamasaid: [
       {
+        id: 84,
         name: "Mama Said",
         year: 1996,
         country: 'UK',
@@ -818,6 +954,7 @@ export var collection = {
     ],
     memory: [
       {
+        id: 85,
         name: "The Memory Remains",
         year: 1997,
         country: 'UK',
@@ -827,6 +964,7 @@ export var collection = {
     ],
     whiskey: [
       {
+        id: 86,
         name: "Whiskey In The Jar",
         year: 1998,
         country: 'France',
@@ -836,6 +974,7 @@ export var collection = {
     ],
     "st.angersingle": [
       {
+        id: 87,
         name: "St.Anger",
         year: 2003,
         country: 'UK',
@@ -845,6 +984,7 @@ export var collection = {
     ],
     thirty: [
       {
+        id: 88,
         name: "The First 30 Years",
         year: 2012,
         country: 'Europe',

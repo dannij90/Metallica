@@ -7,7 +7,7 @@
       <th class="t-width" (click)="changeSort('label')">Label</th>
       <th class="t-info" (click)="changeSort('info')">Info</th>
     </tr>
-    <tr class="tw" *ngFor="let albums of data" (click)="open(albums.id, albums.name)">
+    <tr class="tw" *ngFor="let albums of data"(click)="open(albums.id, albums.name)">
       <td class="name-bold">
         {{ albums.name }}
       </td>
