@@ -20,6 +20,7 @@ export class AlbumDetailsComponent implements OnInit {
   id: string;
   images: any;
   type: any;
+  check: string;
   keyword: string;
   constructor(private route: Router, location: Location) {
     route.events.subscribe((val) => {
@@ -31,22 +32,31 @@ export class AlbumDetailsComponent implements OnInit {
         this.type = location.path().split('/')[1];
       }
       if (this.type === 'Albums') {
+        this.check = location.path().split('/')[2];
         this.data = collection.albums[this.id];
       } else if (this.type === 'Singles') {
+        this.check = location.path().split('/')[2]; //check 7 or 12
         this.id = location.path().split('/')[3];
-        this.data = collection['singles' + location.path().split('/')[2]][this.id];
+        this.data = collection['singles' + this.check][this.id];
       }
 
     });
    // this.visible = false;
   }
 
-  open( id, name) {
+  open(id, name) {
 
-    if (this.type === 'Singles') {
+    if (this.type === 'Singles' && this.check === '7') {
       this.album = collection['singles7'][this.id].filter(val => val.id === id)[0];
+      console.log(this.check);
+      console.log('check');
+    } else if(this.type === 'Singles' && this.check === '12') {
+      this.album = collection['singles12'][this.id].filter(val => val.id === id)[0];
+      console.log(this.check);
     } else {
+
       this.album = collection.albums[this.id].filter(val => val.id === id)[0];
+
     }
     this.prepareAlbum();
     console.log(this.album);
@@ -57,8 +67,6 @@ export class AlbumDetailsComponent implements OnInit {
       this.prepareAlbum();
       console.log(this.album);*/
   }
-
-
 
 
   ngOnInit() {

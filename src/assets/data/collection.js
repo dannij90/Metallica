@@ -699,7 +699,9 @@ export var collection = {
         year: 1991,
         country: 'Europe',
         label: 'Phonogram/Vertigo',
-        info: "Two different copies \n one has a german promotional phonogram sheet and a minor differnet matrix detail. A side has B-2, while the other one has B-1",
+        info: "Two different copies, both with a darker snake on cover" +
+              "1) with a phonogram release sheet side a matrix :  107 P 2681 A-2/10-8687327 and side b matrix: 107 P 2681 B-2/10-8687327 " +
+              "2) side a matrix: 107 P 2681 A-2/10-8687327 and side b matrix: 107 P 2681 B-1/10-8687327 </ul>",
         url: "../../assets/photos/7singles/entersandman/europe",
         images: 5,
         imagename: "europe-"
@@ -929,7 +931,10 @@ export var collection = {
         year: 1996,
         country: 'France',
         label: 'Vertigo',
-        info: "Promo - jukebox promo w/white sleeve"
+        info: "Promo - jukebox promo w/white sleeve",
+        url: "../../assets/photos/7singles/untilitsleeps/1996/france-promo",
+        images: 3,
+        imagename: "france-"
       }
     ],
     herooftheday: [
@@ -937,9 +942,12 @@ export var collection = {
         id: 83,
         name: "Hero Of The Day",
         year: 1996,
-        country: 'France',
+        country: 'Europe',
         label: 'Vertigo/Polygram',
-        info: "Promo - jukebox promo w/white sleeve"
+        info: "Promo - jukebox promo w/white sleeve, MADE IN EEC in matrix",
+        url: "../../assets/photos/7singles/herooftheday/1996/Europe",
+        images: 3,
+        imagename: "europe-"
       }
     ],
     mamasaid: [
@@ -949,7 +957,10 @@ export var collection = {
         year: 1996,
         country: 'UK',
         label: 'Vertigo',
-        info: "Picture disc w/insert"
+        info: "Picture disc w/insert",
+        url: "../../assets/photos/7singles/mamasaid/1997/uk",
+        images: 3,
+        imagename: "uk-"
       }
     ],
     memory: [
@@ -959,7 +970,10 @@ export var collection = {
         year: 1997,
         country: 'UK',
         label: 'Vertigo',
-        info: "info coming soon.."
+        info: "UK single in red picture sleeve",
+        url: "../../assets/photos/7singles/memory/1997/uk",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     whiskey: [
@@ -969,7 +983,10 @@ export var collection = {
         year: 1998,
         country: 'France',
         label: 'Vertigo',
-        info: "Promo - jukebox promo w/white sleeve"
+        info: "Promo - jukebox promo w/white sleeve",
+        url: "../../assets/photos/7singles/whiskey/1998/france-promo",
+        images: 4,
+        imagename: "france-"
       }
     ],
     "st.angersingle": [
@@ -979,7 +996,10 @@ export var collection = {
         year: 2003,
         country: 'UK',
         label: 'Vertigo',
-        info: "w/sticker"
+        info: "w/sticker",
+        url: "../../assets/photos/7singles/stanger/2003/uk",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     thirty: [
@@ -989,204 +1009,272 @@ export var collection = {
         year: 2012,
         country: 'Europe',
         label: 'Blackened?',
-        info: ".."
+        info: "..",
+        url: "../../assets/photos/7singles/thirty/2012/europe",
+        images: 4,
+        imagename: "eu-"
       }
     ]
   },
   singles12: {
     whiplash: [
       {
+        id: 89,
         name: "Whiplash",
         year: 1985,
         country: 'USA',
         label: 'Megaforce',
-        info: '2nd issue with translucent green vinyl'
+        info: '2nd issue with translucent green vinyl',
+        url: "../../assets/photos/12singles/whiplash/usa-brown",
+        images: 6,
+        imagename: "usa-"
       }
     ],
     jumpinthefire: [
       {
+        id: 90,
         name: "Jump In The Fire",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Red/Yellow labels, w/barcode on the back'
+        info: 'Red/Yellow labels, w/barcode on the back',
+        url: "../../assets/photos/12singles/jumpinthefire/1984/uk-redblack",
+        images: 5,
+        imagename: "uk-"
       },
       {
+        id: 91,
         name: "Jump In The Fire",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Red vinyl, w/barcode on the back'
+        info: 'Red vinyl, w/barcode on the back',
+        url: "../../assets/photos/12singles/jumpinthefire/1984/uk-red",
+        images: 6,
+        imagename: "red-"
+
       },
       {
+        id: 92,
         name: "Jump In The Fire",
         year: 1986,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Shaped picture disc wo/barcode'
+        info: 'Shaped picture disc wo/barcode',
+        url: "../../assets/photos/12singles/jumpinthefire/1986/uk-pic-nobar",
+        images: 3,
+        imagename: "uk-"
       },
       {
+        id: 93,
         name: "Jump In The Fire",
         year: 1990,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: 'Yellow label'
+        info: 'Yellow label',
+        url: "../../assets/photos/12singles/jumpinthefire/1990/uk-yellow",
+        images: 6,
+        imagename: "uk-"
       },
       {
+        id: 94,
         name: "Jump In The Fire",
         year: 1991,
         country: 'Brazil',
         label: 'Polygram/Vertigo',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels',
+        url: "../../assets/photos/12singles/jumpinthefire/1991/brazil",
+        images: 5,
+        imagename: "brazil-"
       }
     ],
     creepingdeath: [
       {
+        id: 95,
         name: "Creeping Death",
         year: 1984,
         country: 'France',
         label: 'Music For Nations',
-        info: 'Clear Dark blue vinyl'
+        info: 'Clear Dark blue vinyl',
+        url: "../../assets/photos/12singles/creepingdeath/1984/france/blue",
+        images: 5,
+        imagename: "blue-"
       },
       {
+        id: 96,
         name: "Creeping Death",
         year: 1984,
         country: 'France',
         label: 'Bernett',
-        info: 'Red label'
+        info: 'Red label',
+        url: "../../assets/photos/12singles/creepingdeath/1984/france/bernett",
+        images: 4,
+        imagename: "bernett-"
       },
       {
+        id: 97,
         name: "Creeping Death",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Red/Yellow labels wo/barcode'
+        info: 'Red/Yellow labels wo/barcode',
+        url: "../../assets/photos/12singles/creepingdeath/1984/uk/redyellow-labels",
+        images: 4,
+        imagename: "uk-"
       },
       {
+        id: 98,
         name: "Creeping Death",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Marbled blue vinyl, wo/barcode'
+        info: 'Marbled blue vinyl, wo/barcode',
+        url: "../../assets/photos/12singles/creepingdeath/1984/uk/blue",
+        images: 5,
+        imagename: "blue-"
       },
       {
+        id: 99,
         name: "Creeping Death",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Picture disc, w/barcode'
+        info: 'Picture disc, w/barcode',
+        url: "../../assets/photos/12singles/creepingdeath/1984/uk/pic-nobar",
+        images: 2,
+        imagename: "uk-"
       },
       {
+        id: 100,
         name: "Creeping Death",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Picture disc, wo/barcode'
+        info: 'Picture disc, wo/barcode',
+        url: "../../assets/photos/12singles/creepingdeath/1984/uk/pic-bar",
+        images: 2,
+        imagename: "uk-"
       },
       {
+        id: 101,
         name: "Creeping Death",
         year: 1984,
         country: 'UK',
         label: 'Music For Nations',
-        info: 'Gold Special Anniversary Edition picture disc'
+        info: 'Gold Special Anniversary Edition picture disc',
+        url: "../../assets/photos/12singles/creepingdeath/1984/uk/gold",
+        images: 3,
+        imagename: "gold-"
       },
       {
+        id: 102,
         name: "Creeping Death",
         year: 1990,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: 'Yellow labels'
+        info: 'Yellow labels',
+        url: "../../assets/photos/12singles/creepingdeath/1990/uk",
+        images: 4,
+        imagename: "uk-"
       },
       {
+        id: 103,
         name: "Creeping Death",
         year: 1991,
         country: 'Brazil',
         label: 'Polygram/Vertigo',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels',
+        url: "../../assets/photos/12singles/creepingdeath/1991/brazil",
+        images: 6,
+        imagename: "brazil-"
       }
     ],
     creepjump: [
       {
+        id: 104,
         name: "Creeping Death/Jump In The Fire",
         year: 1990,
         country: 'C.S.F.R',
         label: 'Vertigo/Popron',
-        info: 'Black label'
+        info: 'Black label',
+        url: "../../assets/photos/12singles/creepjump/1990/csfr",
+        images: 6,
+        imagename: "csfr-"
       },
       {
+        id: 105,
         name: "Creeping Death/Jump In The Fire",
         year: 1990,
         country: 'Holland',
         label: 'Phonogram/Vertigo',
-        info: 'Yellow label'
-      }
-    ],
-    bells: [
-      {
-        name: "For Whom The Bell Tolls",
-        year: 1984,
-        country: 'USA',
-        label: 'Elektra/Asylum',
-        info: 'Promo - SP version'
-      }
-    ],
-    puppetssingle: [
-      {
-        name: "Master Of Puppets",
-        year: 1986,
-        country: 'USA',
-        label: 'Elektra/Asylum',
-        info: 'Promo w/Warning sticker - SP version'
+        info: 'Yellow label',
+        url: "../../assets/photos/12singles/creepjump/1990/holland",
+        images: 6,
+        imagename: "holland-"
       }
     ],
     garagedays: [
       {
-        name: "The $5.98 E.P Garage Days Re-Revisited",
-        year: 1987,
-        country: 'Australia',
-        label: 'Mercury',
-        info: 'w/Sticker'
-      },
-      {
+        id: 106,
         name: "The $5.98 E.P Garage Days Re-Revisited",
         year: 1987,
         country: 'Holland',
         label: 'Vertigo/Mercury',
-        info: 'Single sized sleeve, no spine'
+        info: 'Single sized sleeve, no spine',
+        url: "../../assets/photos/12singles/garagedays/1987/holland",
+        images: 5,
+        imagename: "holland-"
       },
       {
+        id: 107,
         name: "The $5.98 E.P Garage Days Re-Revisited",
         year: 1987,
         country: 'Mexico',
         label: 'Polygram/Mercury',
-        info: 'Brown translucent vinyl'
+        info: 'Brown translucent vinyl',
+        url: "../../assets/photos/12singles/garagedays/1987/mexico",
+        images: 7,
+        imagename: "mexico-"
       },
       {
+        id: 108,
         name: "The $5.98 E.P Garage Days Re-Revisited",
         year: 1987,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: 'w/yellow labels'
+        info: 'w/yellow labels',
+        url: "../../assets/photos/12singles/garagedays/1987/uk",
+        images: 5,
+        imagename: "uk-"
       },
       {
+        id: 109,
         name: "The $5.98 E.P Garage Days Re-Revisited",
         year: 1991,
         country: 'Brazil',
         label: 'Polygram/Vertigo',
-        info: 'w/spaceship labels'
+        info: 'w/spaceship labels',
+        url: "../../assets/photos/12singles/garagedays/1991/brazil",
+        images: 7,
+        imagename: "brazil-"
       }
     ],
     eyeofthebeholder: [
       {
+        id: 110,
         name: "The Eye Of The Beholder",
         year: 1988,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "Promo in a elektra sleeve, AR version"
+        info: "Promo in a elektra sleeve, AR version",
+        url: "../../assets/photos/12singles/eye/1988/usa-ar",
+        images: 3,
+        imagename: "usa-ar-"
       }
     ],
     harvesterofsorrow: [
       {
+        id: 111,
         name: "Harvester Of Sorrow",
         year: 1988,
         country: 'Holland',
@@ -1194,6 +1282,7 @@ export var collection = {
         info: "White label"
       },
       {
+        id: 112,
         name: "Harvester Of Sorrow",
         year: 1988,
         country: 'UK',
@@ -1203,6 +1292,7 @@ export var collection = {
     ],
     one: [
       {
+        id: 113,
         name: "One",
         year: 1989,
         country: 'Europe',
@@ -1210,6 +1300,7 @@ export var collection = {
         info: "Yellow labels"
       },
       {
+        id: 114,
         name: "One",
         year: 1989,
         country: 'UK',
@@ -1217,6 +1308,7 @@ export var collection = {
         info: "10 inch picture disc w/insert"
       },
       {
+        id: 115,
         name: "One",
         year: 1989,
         country: 'UK',
@@ -1224,6 +1316,7 @@ export var collection = {
         info: "Brown label"
       },
       {
+        id: 116,
         name: "One",
         year: 1989,
         country: 'UK',
@@ -1233,11 +1326,15 @@ export var collection = {
     ],
     justicesingle: [
       {
+        id: 117,
         name: "...And Justice For All",
         year: 1989,
         country: 'USA',
         label: 'Elektra/Asylum',
-        info: "Promo in a elektra sleeve..(?)"
+        info: "Promo in a elektra sleeve, printed in SP white label only",
+        url: "../../assets/photos/12singles/justice-promo/1989",
+        images: 3,
+        imagename: "usa-"
       }
     ],
     entersandman: [
