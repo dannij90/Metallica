@@ -1269,7 +1269,7 @@ export var collection = {
         info: "Promo in a elektra sleeve, AR version",
         url: "../../assets/photos/12singles/eye/1988/usa-ar",
         images: 3,
-        imagename: "usa-ar-"
+        imagename: "eye-ar-"
       }
     ],
     harvesterofsorrow: [
