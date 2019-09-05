@@ -10,7 +10,8 @@ export var collection = {
         info: 'w/beige labels',
         url: "../../assets/photos/killemall/1983/france-mfn",
         images: 7,
-        imagename: "france-mfn-"
+        imagename: "france-mfn-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 2,
@@ -21,7 +22,8 @@ export var collection = {
         info: 'w/grey labels, without MFN logo on back',
         url: "../../assets/photos/killemall/1983/holland-rr",
         images: 8,
-        imagename: "holland-rr-"
+        imagename: "holland-rr-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 3,
@@ -32,7 +34,8 @@ export var collection = {
         info: 'A-3 <-> MRI/069/A STERLING / A-5 <-> MRI 069-B STERLING',
         url: "../../assets/photos/killemall/1983/usa-megaforce",
         images: 6,
-        imagename: "usa-megaforce-"
+        imagename: "usa-megaforce-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 4,
@@ -43,7 +46,8 @@ export var collection = {
         info: 'Picture disc without barcode',
         url: "../../assets/photos/killemall/1986/uk-mfn-pic",
         images: 4,
-        imagename: "uk-mfn-"
+        imagename: "uk-mfn-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 5,
@@ -54,7 +58,8 @@ export var collection = {
         info: 'w/bonus tracks, SP version',
         url: "../../assets/photos/killemall/1988/usa-elektra",
         images: 8,
-        imagename: "usa-elektra-"
+        imagename: "usa-elektra-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 6,
@@ -65,7 +70,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/killemall/1989/europe-space",
         images: 8,
-        imagename: "europe-space-"
+        imagename: "europe-space-",
+        flag: "../../assets/flags/1x1/eu.svg"
       },
       {
         id: 7,
@@ -76,7 +82,8 @@ export var collection = {
         info: 'w/yellow labels with short writing around label',
         url: "../../assets/photos/killemall/1989/europe-yellow",
         images: 8,
-        imagename: "europe-yellow-"
+        imagename: "europe-yellow-",
+        flag: "../../assets/flags/1x1/eu.svg"
       },
       {
         id: 8,
@@ -87,7 +94,8 @@ export var collection = {
         info: 'w/spaceship labels w/Madrid 28027 on back',
         url: "../../assets/photos/killemall/1989/spain",
         images: 7,
-        imagename: "spain-"
+        imagename: "spain-",
+        flag: "../../assets/flags/1x1/es.svg"
       },
       {
         id: 9,
@@ -98,7 +106,8 @@ export var collection = {
         info: 'w/Spaceship labels',
         url: "../../assets/photos/killemall/1990/brazil",
         images: 6,
-        imagename: "brazil-"
+        imagename: "brazil-",
+        flag: "../../assets/flags/1x1/br.svg"
       },
       {
         id: 10,
@@ -109,7 +118,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/killemall/1992/greece",
         images: 5,
-        imagename: "greece-"
+        imagename: "greece-",
+        flag: "../../assets/flags/1x1/gr.svg"
       }
     ],
     ridethelightning: [
@@ -122,7 +132,8 @@ export var collection = {
         info: 'w/beige labels without Made in France on label',
         url: "../../assets/photos/ridethelightning/1984/france-mfn",
         images: 6,
-        imagename: "france-mfn-"
+        imagename: "france-mfn-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 12,
@@ -133,7 +144,8 @@ export var collection = {
         info: 'silver label',
         url: "../../assets/photos/ridethelightning/1984/usa-megaforce",
         images: 9,
-        imagename: "usa-megaforce-"
+        imagename: "usa-megaforce-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 13,
@@ -144,7 +156,8 @@ export var collection = {
         info: 'AR version',
         url: "../../assets/photos/ridethelightning/1984/usa-elektra-ar",
         images: 7,
-        imagename: "usa-elektra-ar-"
+        imagename: "usa-elektra-ar-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 14,
@@ -155,7 +168,8 @@ export var collection = {
         info: 'Picture disc without barcode',
         url: "../../assets/photos/ridethelightning/1986/uk-mfn-pic",
         images: 4,
-        imagename: "uk-mfn-pic-"
+        imagename: "uk-mfn-pic-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 15,
@@ -166,7 +180,8 @@ export var collection = {
         info: 'DMM 2LP gatefold with merchandise sheet',
         url: "../../assets/photos/ridethelightning/1987/uk-mfn",
         images: 9,
-        imagename: "uk-mfn-"
+        imagename: "uk-mfn-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 16,
@@ -177,7 +192,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/ridethelightning/1989/europe-spaceship",
         images: 7,
-        imagename: "europe-spaceship-"
+        imagename: "europe-spaceship-",
+        flag: "../../assets/flags/1x1/eu.svg"
       },
       {
         id: 17,
@@ -188,7 +204,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/ridethelightning/1990/brazil",
         images: 5,
-        imagename: "brazil-"
+        imagename: "brazil-",
+        flag: "../../assets/flags/1x1/br.svg"
       },
       {
         id: 18,
@@ -199,7 +216,8 @@ export var collection = {
         info: 'SEALED',
         url: "../../assets/photos/ridethelightning/2015/europe-blackened",
         images: 4,
-        imagename: "europe-blackened-"
+        imagename: "europe-blackened-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ],
     masterofpuppets: [
@@ -212,7 +230,8 @@ export var collection = {
         info: 'writing around top of label',
         url: "../../assets/photos/masterofpuppets/1986/canada",
         images: 7,
-        imagename: "canada-"
+        imagename: "canada-",
+        flag: "../../assets/flags/1x1/ca.svg"
       },
       {
         id: 20,
@@ -223,7 +242,8 @@ export var collection = {
         info: '2320 with black label',
         url: "../../assets/photos/masterofpuppets/1986/france-new",
         images: 10,
-        imagename: "france-new-"
+        imagename: "france-new-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 21,
@@ -234,7 +254,8 @@ export var collection = {
         info: 'w/MFN/RR labels',
         url: "../../assets/photos/masterofpuppets/1986/holland",
         images: 8,
-        imagename: "holland-"
+        imagename: "holland-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 22,
@@ -245,7 +266,8 @@ export var collection = {
         info: 'w/Obi strip and poster',
         url: "../../assets/photos/masterofpuppets/1986/japan",
         images: 11,
-        imagename: "japan-"
+        imagename: "japan-",
+        flag: "../../assets/flags/1x1/jp.svg"
       },
       {
         id: 23,
@@ -256,7 +278,8 @@ export var collection = {
         info: 'picture disc without barcode',
         url: "../../assets/photos/masterofpuppets/1986/uk-pic",
         images: 4,
-        imagename: "uk-pic-"
+        imagename: "uk-pic-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 24,
@@ -267,7 +290,8 @@ export var collection = {
         info: 'SP version',
         url: "../../assets/photos/masterofpuppets/1986/usa-sp",
         images: 6,
-        imagename: "usa-sp-"
+        imagename: "usa-sp-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 25,
@@ -278,7 +302,8 @@ export var collection = {
         info: 'Columbia House issue',
         url: "../../assets/photos/masterofpuppets/1986/usa-col",
         images: 7,
-        imagename: "usa-col-"
+        imagename: "usa-col-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 26,
@@ -289,7 +314,8 @@ export var collection = {
         info: 'Double LP with gatefold cover, includes a poster',
         url: "../../assets/photos/masterofpuppets/1987/uk-dmm",
         images: 10,
-        imagename: "uk-dmm-"
+        imagename: "uk-dmm-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 27,
@@ -300,7 +326,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/masterofpuppets/1989/europe-spaceship",
         images: 7,
-        imagename: "europe-spaceship-"
+        imagename: "europe-spaceship-",
+        flag: "../../assets/flags/1x1/eu.svg"
       },
       {
         id: 28,
@@ -311,7 +338,8 @@ export var collection = {
         info: 'translucent brown vinyl',
         url: "../../assets/photos/masterofpuppets/1990/mexico",
         images: 11,
-        imagename: "mexico-"
+        imagename: "mexico-",
+        flag: "../../assets/flags/1x1/mx.svg"
       },
       {
         id: 29,
@@ -322,7 +350,8 @@ export var collection = {
         info: 're-issue',
         url: "../../assets/photos/masterofpuppets/2008/europe",
         images: 3,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ],
     andjusticeforall: [
@@ -335,7 +364,8 @@ export var collection = {
         info: '2LP',
         url: "../../assets/photos/andjusticeforall/1988/holland",
         images: 10,
-        imagename: "holland-"
+        imagename: "holland-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 31,
@@ -346,7 +376,8 @@ export var collection = {
         info: 'Sony-w/white labels, w/obi strip, booklet lyrics, japanese insert & bonus track',
         url: "../../assets/photos/andjusticeforall/1988/japan",
         images: 13,
-        imagename: "japan-"
+        imagename: "japan-",
+        flag: "../../assets/flags/1x1/jp.svg"
       },
       {
         id: 32,
@@ -357,7 +388,8 @@ export var collection = {
         info: 'Gatefold sleeve, w/blue labels',
         url: "../../assets/photos/andjusticeforall/1988/korea",
         images: 10,
-        imagename: "korea-"
+        imagename: "korea-",
+        flag: "../../assets/flags/1x1/kr.svg"
       },
       {
         id: 33,
@@ -368,7 +400,8 @@ export var collection = {
         info: 'Green hype sticker on cover',
         url: "../../assets/photos/andjusticeforall/1988/usa-green-sticker",
         images: 11,
-        imagename: "usa-"
+        imagename: "usa-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 34,
@@ -379,7 +412,8 @@ export var collection = {
         info: 'Deluxe 4LP box set with lyrics insert and bellyband, sealed',
         url: "../../assets/photos/andjusticeforall/2008/europe-box",
         images: 4,
-        imagename: "eu-box-"
+        imagename: "eu-box-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ],
     blackalbum: [
@@ -392,7 +426,8 @@ export var collection = {
         info: 'Double album',
         url: "../../assets/photos/blackalbum/1991/holland",
         images: 10,
-        imagename: "holland-"
+        imagename: "holland-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 36,
@@ -403,7 +438,8 @@ export var collection = {
         info: 'w/spaceship labels (Cover in rough condition)',
         url: "../../assets/photos/blackalbum/1991/venezuela",
         images: 4,
-        imagename: "ven-"
+        imagename: "ven-",
+        flag: "../../assets/flags/1x1/ve.svg"
       },
       {
         id: 37,
@@ -414,7 +450,8 @@ export var collection = {
         info: '2LP repress w/sticker',
         url: "../../assets/photos/blackalbum/2014/usa",
         images: 4,
-        imagename: "usa-"
+        imagename: "usa-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     load: [
@@ -427,7 +464,8 @@ export var collection = {
         info: '2LP Gatefold',
         url: "../../assets/photos/load/1996/uk",
         images: 11,
-        imagename: "load-"
+        imagename: "load-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     reload: [
@@ -440,7 +478,8 @@ export var collection = {
         info: '2LP Gatefold w/sticker, Sealed',
         url: "../../assets/photos/reload/1996/uk",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     garageinc: [
@@ -453,7 +492,8 @@ export var collection = {
         info: '3LP Gatefold w/grey label',
         url: "../../assets/photos/garageinc/1998/usa",
         images: 15,
-        imagename: "usa-"
+        imagename: "usa-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     's&m': [
@@ -466,7 +506,8 @@ export var collection = {
         info: '3LP Gatefold w/sticker',
         url: "../../assets/photos/sm/1999/usa",
         images: 15,
-        imagename: "usa-"
+        imagename: "usa-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     'st.anger': [
@@ -479,7 +520,8 @@ export var collection = {
         info: '2LP Gatefold',
         url: "../../assets/photos/stanger/2015/europe",
         images: 10,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ],
     deathmagnetic: [
@@ -492,7 +534,8 @@ export var collection = {
         info: '2LP Gatefold',
         url: "../../assets/photos/deathmagnetic/2016/europe",
         images: 3,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ],
     hardwired: [
@@ -505,7 +548,8 @@ export var collection = {
         info: 'Red Translucent Marble 2LP ltd to 15.000 copies',
         url: "../../assets/photos/hardwired/2016/europe-red",
         images: 4,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
       },
       {
         id: 45,
@@ -516,7 +560,8 @@ export var collection = {
         info: '3LP Box (blue/yellow/red vinyls)',
         url: "../../assets/photos/hardwired/2016/europe-box",
         images: 30,
-        imagename: "box-"
+        imagename: "box-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ]
   },
@@ -531,7 +576,8 @@ export var collection = {
         info: "Promo in a elektra sleeve, SP version",
         url: "../../assets/photos/7singles/eyeofthebeholder/usa-promo-sp",
         images: 5,
-        imagename: "promo-sp-"
+        imagename: "promo-sp-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 47,
@@ -542,7 +588,8 @@ export var collection = {
         info: "Promo in a elektra sleeve, AR version",
         url: "../../assets/photos/7singles/eyeofthebeholder/usa-promo-ar",
         images: 4,
-        imagename: "promo-ar-"
+        imagename: "promo-ar-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 48,
@@ -553,7 +600,8 @@ export var collection = {
         info: "SP version w/HEtfield",
         url: "../../assets/photos/7singles/eyeofthebeholder/usa-sp",
         images: 4,
-        imagename: "usa-sp-"
+        imagename: "usa-sp-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 49,
@@ -564,7 +612,8 @@ export var collection = {
         info: "AR version w/HAtfield",
         url: "../../assets/photos/7singles/eyeofthebeholder/usa-ar",
         images: 4,
-        imagename: "usa-ar-"
+        imagename: "usa-ar-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     harvesterofsorrow: [
@@ -577,7 +626,8 @@ export var collection = {
         info: "Promo in a polygram sleeve, split promo",
         url: "../../assets/photos/7singles/harvesterofsorrow/italy-promo",
         images: 4,
-        imagename: "italy-promo-"
+        imagename: "italy-promo-",
+        flag: "../../assets/flags/1x1/it.svg"
       },
     ],
     one: [
@@ -590,7 +640,8 @@ export var collection = {
         info: "Promo - Orange label",
         url: "../../assets/photos/7singles/one/japan-promo-cbs",
         images: 5,
-        imagename: "jap-"
+        imagename: "jap-",
+        flag: "../../assets/flags/1x1/jp.svg"
       },
       {
         id: 52,
@@ -601,7 +652,8 @@ export var collection = {
         info: "Brown label w/sticker (poster missing)",
         url: "../../assets/photos/7singles/one/uk-poster",
         images: 4,
-        imagename: "uk-poster-"
+        imagename: "uk-poster-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 53,
@@ -612,7 +664,8 @@ export var collection = {
         info: "Brown label",
         url: "../../assets/photos/7singles/one/uk-brown",
         images: 5,
-        imagename: "uk-brown-"
+        imagename: "uk-brown-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 54,
@@ -623,7 +676,8 @@ export var collection = {
         info: "Silver label",
         url: "../../assets/photos/7singles/one/uk-silver",
         images: 5,
-        imagename: "uk-silver-"
+        imagename: "uk-silver-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 55,
@@ -634,7 +688,8 @@ export var collection = {
         info: "Red/Black labels - AR version",
         url: "../../assets/photos/7singles/one/usa-ar",
         images: 5,
-        imagename: "usa-ar-"
+        imagename: "usa-ar-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 56,
@@ -645,7 +700,8 @@ export var collection = {
         info: "Red/Black labels - SP version",
         url: "../../assets/photos/7singles/one/usa-sp",
         images: 5,
-        imagename: "usa-sp-"
+        imagename: "usa-sp-",
+        flag: "../../assets/flags/1x1/us.svg"
       },
       {
         id: 57,
@@ -656,7 +712,8 @@ export var collection = {
         info: "Silver label w/large center hole - Includes a pink release info sheet",
         url: "../../assets/photos/7singles/one/west-germany",
         images: 5,
-        imagename: "wgermany-"
+        imagename: "wgermany-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
     ],
     entersandman: [
@@ -669,7 +726,8 @@ export var collection = {
         info: "Promo with envelope sleeve w/title sticker & french promo sticker on back",
         url: "../../assets/photos/7singles/entersandman/france-promo",
         images: 8,
-        imagename: "france-promo-"
+        imagename: "france-promo-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 60,
@@ -680,7 +738,8 @@ export var collection = {
         info: "Promo - split promo w/jukebox strip",
         url: "../../assets/photos/7singles/entersandman/italy-promo",
         images: 4,
-        imagename: "italy-promo-"
+        imagename: "italy-promo-",
+        flag: "../../assets/flags/1x1/it.svg"
       },
       {
         id: 61,
@@ -691,7 +750,8 @@ export var collection = {
         info: "Promo - jukebox promo w/black labels",
         url: "../../assets/photos/7singles/entersandman/uk-promo",
         images: 4,
-        imagename: "uk-promo-"
+        imagename: "uk-promo-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 62,
@@ -704,7 +764,8 @@ export var collection = {
               "2) side a matrix: 107 P 2681 A-2/10-8687327 and side b matrix: 107 P 2681 B-1/10-8687327 </ul>",
         url: "../../assets/photos/7singles/entersandman/europe",
         images: 5,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
       },
       {
         id: 63,
@@ -715,7 +776,8 @@ export var collection = {
         info: "Silver label w/logo sticker on cover",
         url: "../../assets/photos/7singles/entersandman/france",
         images: 5,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 64,
@@ -726,7 +788,8 @@ export var collection = {
         info: "Picture disc, w/sleeve & sticker",
         url: "../../assets/photos/7singles/entersandman/uk-pic",
         images: 4,
-        imagename: "uk-pic-"
+        imagename: "uk-pic-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     unforgiven: [
@@ -739,7 +802,8 @@ export var collection = {
         info: "Promo w/jukebox strip",
         url: "../../assets/photos/7singles/unforgiven/italy-promo",
         images: 4,
-        imagename: "italy-promo-"
+        imagename: "italy-promo-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 66,
@@ -750,7 +814,8 @@ export var collection = {
         info: "Promo w/Release date stickers",
         url: "../../assets/photos/7singles/unforgiven/uk-promo",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 67,
@@ -761,7 +826,8 @@ export var collection = {
         info: "Clear vinyl w/tattoo & sticker (sealed)",
         url: "../../assets/photos/7singles/unforgiven/france-clear",
         images: 4,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 68,
@@ -772,7 +838,8 @@ export var collection = {
         info: "w/silver label w/large center hole",
         url: "../../assets/photos/7singles/unforgiven/germany-silver",
         images: 4,
-        imagename: "g-"
+        imagename: "g-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
       {
         id: 69,
@@ -783,7 +850,8 @@ export var collection = {
         info: "w/swirl label",
         url: "../../assets/photos/7singles/unforgiven/uk-swirl",
         images: 4,
-        imagename: "uk-swirl-"
+        imagename: "uk-swirl-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 70,
@@ -794,7 +862,8 @@ export var collection = {
         info: "w/silver label",
         url: "../../assets/photos/7singles/unforgiven/uk-silver",
         images: 4,
-        imagename: "uk-silver-"
+        imagename: "uk-silver-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 71,
@@ -805,7 +874,8 @@ export var collection = {
         info: "Picture disc",
         url: "../../assets/photos/7singles/unforgiven/uk-pic",
         images: 4,
-        imagename: "uk-pic-"
+        imagename: "uk-pic-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     nothingelsematters: [
@@ -818,7 +888,8 @@ export var collection = {
         info: "Promo - split",
         url: "../../assets/photos/7singles/nothingelsematters/italy-promo",
         images: 4,
-        imagename: "italy-"
+        imagename: "italy-",
+        flag: "../../assets/flags/1x1/it.svg"
       },
       {
         id: 73,
@@ -829,7 +900,8 @@ export var collection = {
         info: "w/2 stickers, foldout poster sleeve (sealed)",
         url: "../../assets/photos/7singles/nothingelsematters/france-poster",
         images: 5,
-        imagename: "france-poster-"
+        imagename: "france-poster-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 74,
@@ -840,7 +912,8 @@ export var collection = {
         info: "Silver label, sleeve is most likely UK but matrix says made in france",
         url: "../../assets/photos/7singles/nothingelsematters/france-silver",
         images: 5,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 75,
@@ -851,7 +924,8 @@ export var collection = {
         info: "White label, large center hole",
         url: "../../assets/photos/7singles/nothingelsematters/germany",
         images: 4,
-        imagename: "germany-"
+        imagename: "germany-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
       {
         id: 76,
@@ -862,7 +936,8 @@ export var collection = {
         info: "Swirl label",
         url: "../../assets/photos/7singles/nothingelsematters/uk-swirl",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     whereverimayroam: [
@@ -875,7 +950,8 @@ export var collection = {
         info: "Silver label",
         url: "../../assets/photos/7singles/whereverimayroam/france",
         images: 4,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 78,
@@ -886,7 +962,8 @@ export var collection = {
         info: "White label, w/large center hole",
         url: "../../assets/photos/7singles/whereverimayroam/germany",
         images: 4,
-        imagename: "germany-"
+        imagename: "germany-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
       {
         id: 79,
@@ -897,7 +974,8 @@ export var collection = {
         info: "Swirl label",
         url: "../../assets/photos/7singles/whereverimayroam/uk-swirl",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     sadbuttrue: [
@@ -910,7 +988,8 @@ export var collection = {
         info: "White label, w/large center hole",
         url: "../../assets/photos/7singles/sadbuttrue/germany",
         images: 4,
-        imagename: "germany-"
+        imagename: "germany-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
       {
         id: 81,
@@ -921,7 +1000,8 @@ export var collection = {
         info: "Black label, sticker on sleeve, matrix says MADE IN FRANCE",
         url: "../../assets/photos/7singles/sadbuttrue/france",
         images: 5,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       }
     ],
     untilitsleeps: [
@@ -934,7 +1014,8 @@ export var collection = {
         info: "Promo - jukebox promo w/white sleeve",
         url: "../../assets/photos/7singles/untilitsleeps/1996/france-promo",
         images: 3,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       }
     ],
     herooftheday: [
@@ -947,7 +1028,8 @@ export var collection = {
         info: "Promo - jukebox promo w/white sleeve, MADE IN EEC in matrix",
         url: "../../assets/photos/7singles/herooftheday/1996/Europe",
         images: 3,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ],
     mamasaid: [
@@ -960,7 +1042,8 @@ export var collection = {
         info: "Picture disc w/insert",
         url: "../../assets/photos/7singles/mamasaid/1997/uk",
         images: 3,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     memory: [
@@ -973,7 +1056,8 @@ export var collection = {
         info: "UK single in red picture sleeve",
         url: "../../assets/photos/7singles/memory/1997/uk",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     whiskey: [
@@ -986,7 +1070,8 @@ export var collection = {
         info: "Promo - jukebox promo w/white sleeve",
         url: "../../assets/photos/7singles/whiskey/1998/france-promo",
         images: 4,
-        imagename: "france-"
+        imagename: "france-",
+        flag: "../../assets/flags/1x1/fr.svg"
       }
     ],
     "st.angersingle": [
@@ -999,7 +1084,8 @@ export var collection = {
         info: "w/sticker",
         url: "../../assets/photos/7singles/stanger/2003/uk",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     thirty: [
@@ -1012,7 +1098,8 @@ export var collection = {
         info: "..",
         url: "../../assets/photos/7singles/thirty/2012/europe",
         images: 4,
-        imagename: "eu-"
+        imagename: "eu-",
+        flag: "../../assets/flags/1x1/eu.svg"
       }
     ]
   },
@@ -1027,7 +1114,8 @@ export var collection = {
         info: '2nd issue with translucent brown vinyl',
         url: "../../assets/photos/12singles/whiplash/usa-brown",
         images: 6,
-        imagename: "usa-"
+        imagename: "usa-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     jumpinthefire: [
@@ -1040,7 +1128,8 @@ export var collection = {
         info: 'Red/Yellow labels, w/barcode on the back',
         url: "../../assets/photos/12singles/jumpinthefire/1984/uk-redblack",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 91,
@@ -1051,7 +1140,8 @@ export var collection = {
         info: 'Red vinyl, w/barcode on the back',
         url: "../../assets/photos/12singles/jumpinthefire/1984/uk-red",
         images: 6,
-        imagename: "red-"
+        imagename: "red-",
+        flag: "../../assets/flags/1x1/gb.svg"
 
       },
       {
@@ -1063,7 +1153,8 @@ export var collection = {
         info: 'Shaped picture disc wo/barcode',
         url: "../../assets/photos/12singles/jumpinthefire/1986/uk-pic-nobar",
         images: 3,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 93,
@@ -1074,7 +1165,8 @@ export var collection = {
         info: 'Yellow label',
         url: "../../assets/photos/12singles/jumpinthefire/1990/uk-yellow",
         images: 6,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 94,
@@ -1085,7 +1177,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/12singles/jumpinthefire/1991/brazil",
         images: 5,
-        imagename: "brazil-"
+        imagename: "brazil-",
+        flag: "../../assets/flags/1x1/br.svg"
       }
     ],
     creepingdeath: [
@@ -1098,7 +1191,8 @@ export var collection = {
         info: 'Clear Dark blue vinyl',
         url: "../../assets/photos/12singles/creepingdeath/1984/france/blue",
         images: 5,
-        imagename: "blue-"
+        imagename: "blue-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 96,
@@ -1109,7 +1203,8 @@ export var collection = {
         info: 'Red label',
         url: "../../assets/photos/12singles/creepingdeath/1984/france/bernett",
         images: 4,
-        imagename: "bernett-"
+        imagename: "bernett-",
+        flag: "../../assets/flags/1x1/fr.svg"
       },
       {
         id: 97,
@@ -1120,7 +1215,8 @@ export var collection = {
         info: 'Red/Yellow labels wo/barcode',
         url: "../../assets/photos/12singles/creepingdeath/1984/uk/redyellow-labels",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 98,
@@ -1131,7 +1227,8 @@ export var collection = {
         info: 'Marbled blue vinyl, wo/barcode',
         url: "../../assets/photos/12singles/creepingdeath/1984/uk/blue",
         images: 5,
-        imagename: "blue-"
+        imagename: "blue-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 99,
@@ -1142,7 +1239,8 @@ export var collection = {
         info: 'Picture disc, w/barcode',
         url: "../../assets/photos/12singles/creepingdeath/1984/uk/pic-nobar",
         images: 2,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 100,
@@ -1153,7 +1251,8 @@ export var collection = {
         info: 'Picture disc, wo/barcode',
         url: "../../assets/photos/12singles/creepingdeath/1984/uk/pic-bar",
         images: 2,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 101,
@@ -1164,7 +1263,8 @@ export var collection = {
         info: 'Gold Special Anniversary Edition picture disc',
         url: "../../assets/photos/12singles/creepingdeath/1984/uk/gold",
         images: 3,
-        imagename: "gold-"
+        imagename: "gold-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 102,
@@ -1175,7 +1275,8 @@ export var collection = {
         info: 'Yellow labels',
         url: "../../assets/photos/12singles/creepingdeath/1990/uk",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 103,
@@ -1186,7 +1287,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/12singles/creepingdeath/1991/brazil",
         images: 6,
-        imagename: "brazil-"
+        imagename: "brazil-",
+        flag: "../../assets/flags/1x1/br.svg"
       }
     ],
     creepjump: [
@@ -1199,7 +1301,8 @@ export var collection = {
         info: 'Black label',
         url: "../../assets/photos/12singles/creepjump/1990/csfr",
         images: 6,
-        imagename: "csfr-"
+        imagename: "csfr-",
+        flag: "../../assets/flags/1x1/cz.svg"
       },
       {
         id: 105,
@@ -1210,7 +1313,8 @@ export var collection = {
         info: 'Yellow label',
         url: "../../assets/photos/12singles/creepjump/1990/holland",
         images: 6,
-        imagename: "holland-"
+        imagename: "holland-",
+        flag: "../../assets/flags/1x1/nl.svg"
       }
     ],
     garagedays: [
@@ -1223,7 +1327,8 @@ export var collection = {
         info: 'Single sized sleeve, no spine',
         url: "../../assets/photos/12singles/garagedays/1987/holland",
         images: 5,
-        imagename: "holland-"
+        imagename: "holland-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 107,
@@ -1234,7 +1339,9 @@ export var collection = {
         info: 'Brown translucent vinyl',
         url: "../../assets/photos/12singles/garagedays/1987/mexico",
         images: 7,
-        imagename: "mexico-"
+        imagename: "mexico-",
+        flag: "../../assets/flags/1x1/mx.svg"
+
       },
       {
         id: 108,
@@ -1245,7 +1352,8 @@ export var collection = {
         info: 'w/yellow labels',
         url: "../../assets/photos/12singles/garagedays/1987/uk",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 109,
@@ -1256,7 +1364,8 @@ export var collection = {
         info: 'w/spaceship labels',
         url: "../../assets/photos/12singles/garagedays/1991/brazil",
         images: 7,
-        imagename: "brazil-"
+        imagename: "brazil-",
+        flag: "../../assets/flags/1x1/br.svg"
       }
     ],
     eyeofthebeholder: [
@@ -1269,7 +1378,8 @@ export var collection = {
         info: "Promo in a elektra sleeve, AR version",
         url: "../../assets/photos/12singles/eye/1988/usa-ar",
         images: 3,
-        imagename: "eye-ar-"
+        imagename: "eye-ar-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     harvesterofsorrow: [
@@ -1282,7 +1392,8 @@ export var collection = {
         info: "White label",
         url: "../../assets/photos/12singles/harvesterofsorrow/1988/holland",
         images: 5,
-        imagename: "holland-"
+        imagename: "holland-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 112,
@@ -1293,7 +1404,8 @@ export var collection = {
         info: "Skull labels",
         url: "../../assets/photos/12singles/harvesterofsorrow/1988/uk",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     one: [
@@ -1306,7 +1418,8 @@ export var collection = {
         info: "Yellow labels",
         url: "../../assets/photos/12singles/one/1989/europe",
         images: 4,
-        imagename: "europe-"
+        imagename: "europe-",
+        flag: "../../assets/flags/1x1/eu.svg"
 
       },
       {
@@ -1318,7 +1431,8 @@ export var collection = {
         info: "10 inch picture disc w/insert",
         url: "../../assets/photos/12singles/one/1989/uk-ten-inch",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 115,
@@ -1329,7 +1443,8 @@ export var collection = {
         info: "Brown label",
         url: "../../assets/photos/12singles/one/1989/uk",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 116,
@@ -1340,7 +1455,8 @@ export var collection = {
         info: "Gatefold w/black cover w/sticker",
         url: "../../assets/photos/12singles/one/1989/uk-gatefold",
         images: 9,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     justicesingle: [
@@ -1353,7 +1469,8 @@ export var collection = {
         info: "Promo in a elektra sleeve, printed in SP white label only",
         url: "../../assets/photos/12singles/justice-promo/1989",
         images: 3,
-        imagename: "usa-"
+        imagename: "usa-",
+        flag: "../../assets/flags/1x1/us.svg"
       }
     ],
     entersandman: [
@@ -1366,7 +1483,8 @@ export var collection = {
         info: "3 tracks",
         url: "../../assets/photos/12singles/entersandman/1991/holland3track",
         images: 5,
-        imagename: "hollandthree-"
+        imagename: "hollandthree-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 119,
@@ -1377,7 +1495,8 @@ export var collection = {
         info: "4 tracks",
         url: "../../assets/photos/12singles/entersandman/1991/holland4track",
         images: 5,
-        imagename: "hollandfour-"
+        imagename: "hollandfour-",
+        flag: "../../assets/flags/1x1/nl.svg"
       },
       {
         id: 120,
@@ -1388,7 +1507,8 @@ export var collection = {
         info: "3 tracks w/prints of each band member",
         url: "../../assets/photos/12singles/entersandman/1991/uk3track",
         images: 8,
-        imagename: "ukthree-"
+        imagename: "ukthree-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 121,
@@ -1399,7 +1519,8 @@ export var collection = {
         info: "4 tracks",
         url: "../../assets/photos/12singles/entersandman/1991/uk4track",
         images: 5,
-        imagename: "ukfour-"
+        imagename: "ukfour-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     unforgiven: [
@@ -1412,7 +1533,8 @@ export var collection = {
         info: "w/warning sticker",
         url: "../../assets/photos/12singles/unforgiven/1991/uk",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     nothingelsematters: [
@@ -1425,7 +1547,8 @@ export var collection = {
         info: "Swirl label",
         url: "../../assets/photos/12singles/nem/1991/uk",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     whereverimayroam: [
@@ -1438,7 +1561,8 @@ export var collection = {
         info: "Promo - split promo w/pink sleeve",
         url: "../../assets/photos/12singles/roam/1992/argentina-promo",
         images: 4,
-        imagename: "promo-"
+        imagename: "promo-",
+        flag: "../../assets/flags/1x1/ar.svg"
       },
       {
         id: 125,
@@ -1449,7 +1573,8 @@ export var collection = {
         info: "..",
         url: "../../assets/photos/12singles/roam/1992/germany",
         images: 4,
-        imagename: "germany-"
+        imagename: "germany-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
       {
         id: 126,
@@ -1460,7 +1585,8 @@ export var collection = {
         info: "Gatefold",
         url: "../../assets/photos/12singles/roam/1992/uk",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     sadbuttrue: [
@@ -1473,7 +1599,8 @@ export var collection = {
         info: "Picture disc",
         url: "../../assets/photos/12singles/sadbuttrue/1993/germany-picture-disc",
         images: 4,
-        imagename: "pic-"
+        imagename: "pic-",
+        flag: "../../assets/flags/1x1/de.svg"
       },
       {
         id: 128,
@@ -1484,7 +1611,8 @@ export var collection = {
         info: "white/swirl label",
         url: "../../assets/photos/12singles/sadbuttrue/1993/uk",
         images: 4,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     onelive: [
@@ -1497,7 +1625,8 @@ export var collection = {
         info: "Scary Guy picture disc, w/insert",
         url: "../../assets/photos/12singles/onelive/1994/germany",
         images: 4,
-        imagename: "pic-"
+        imagename: "pic-",
+        flag: "../../assets/flags/1x1/de.svg"
       }
     ],
     untilitsleeps: [
@@ -1510,7 +1639,8 @@ export var collection = {
         info: "10 inch red vinyl w/insert",
         url: "../../assets/photos/12singles/untilitsleeps/1996/uk",
         images: 3,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     herooftheday: [
@@ -1523,7 +1653,8 @@ export var collection = {
         info: "w/silver embossed cover, stickered sleeve, ltd edition",
         url: "../../assets/photos/12singles/hero/1996/uk",
         images: 7,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     frantic: [
@@ -1536,7 +1667,8 @@ export var collection = {
         info: "Promo - white label, no sleeve",
         url: "../../assets/photos/12singles/frantic/2003/uk-promo",
         images: 4,
-        imagename: "promo-"
+        imagename: "promo-",
+        flag: "../../assets/flags/1x1/gb.svg"
       },
       {
         id: 133,
@@ -1547,7 +1679,8 @@ export var collection = {
         info: "..",
         url: "../../assets/photos/12singles/frantic/2003/uk",
         images: 5,
-        imagename: "uk-"
+        imagename: "uk-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ],
     theunnamedfeeling: [
@@ -1560,7 +1693,8 @@ export var collection = {
         info: "Picture disc",
         url: "../../assets/photos/12singles/unnamedfeeling/2003/uk-picture-disc",
         images: 2,
-        imagename: "pic-"
+        imagename: "pic-",
+        flag: "../../assets/flags/1x1/gb.svg"
       }
     ]
   },

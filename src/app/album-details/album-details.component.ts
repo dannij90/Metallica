@@ -24,7 +24,7 @@ export class AlbumDetailsComponent implements OnInit {
   keyword: string;
   constructor(private route: Router, location: Location) {
     route.events.subscribe((val) => {
-      if(location.path() !== '') {
+      if (location.path() !== '') {
         this.id = location.path().split('/')[2];
         this.type = location.path().split('/')[1];
       } else {
@@ -41,7 +41,7 @@ export class AlbumDetailsComponent implements OnInit {
       }
 
     });
-   // this.visible = false;
+    // this.visible = false;
   }
 
   open(id, name) {
@@ -50,7 +50,7 @@ export class AlbumDetailsComponent implements OnInit {
       this.album = collection['singles7'][this.id].filter(val => val.id === id)[0];
       console.log(this.check);
       console.log('check');
-    } else if(this.type === 'Singles' && this.check === '12') {
+    } else if (this.type === 'Singles' && this.check === '12') {
       this.album = collection['singles12'][this.id].filter(val => val.id === id)[0];
       console.log(this.check);
     } else {
@@ -63,9 +63,9 @@ export class AlbumDetailsComponent implements OnInit {
 
 
 
-     /* this.album = collection.albums[this.id].filter(val => val.id === id)[0];
-      this.prepareAlbum();
-      console.log(this.album);*/
+    /* this.album = collection.albums[this.id].filter(val => val.id === id)[0];
+     this.prepareAlbum();
+     console.log(this.album);*/
   }
 
 
@@ -73,36 +73,36 @@ export class AlbumDetailsComponent implements OnInit {
   }
 
   compare(a, b) {
-    if ( a[this.keyword] < b[this.keyword] ){
+    if (a[this.keyword] < b[this.keyword]) {
       return -1;
     }
-    if ( a[this.keyword] > b[this.keyword]  ){
+    if (a[this.keyword] > b[this.keyword]) {
       return 1;
     }
 
-    if ( a['country'] < b['country'] ){
+    if (a['country'] < b['country']) {
       return -1;
     }
 
-    if ( a['country'] > b['country']  ){
+    if (a['country'] > b['country']) {
       return 1;
     }
     return 0;
   }
 
   revcompare(a, b) {
-    if ( a[this.keyword] > b[this.keyword] ){
+    if (a[this.keyword] > b[this.keyword]) {
       return -1;
     }
-    if ( a[this.keyword] < b[this.keyword]  ){
+    if (a[this.keyword] < b[this.keyword]) {
       return 1;
     }
 
-    if ( a['country'] < b['country'] ){
+    if (a['country'] < b['country']) {
       return -1;
     }
 
-    if ( a['country'] > b['country']  ){
+    if (a['country'] > b['country']) {
       return 1;
     }
 
@@ -110,7 +110,7 @@ export class AlbumDetailsComponent implements OnInit {
   }
 
   changeSort(value) {
-    if(value === this.keyword) {
+    if (value === this.keyword) {
       this.data.sort((a, b) => this.revcompare(a, b));
       this.keyword = '';
     } else {
@@ -121,7 +121,7 @@ export class AlbumDetailsComponent implements OnInit {
 
   prepareAlbum() {
     let images = new Array<string>();
-    for(let i = 0; i < this.album.images; i++) {
+    for (let i = 0; i < this.album.images; i++) {
       images.push(this.album.url + '/' + this.album.imagename + (i + 1) + '.jpg');
     }
     this.album.imageArray = images;
@@ -132,20 +132,4 @@ export class AlbumDetailsComponent implements OnInit {
     // tell image component to display these images
     this.imagesComponent.resetAndPopulate(this.album);
   }
-
-  prepareSingleSeven() {
-    let images = new Array<string>();
-    for(let i = 0; i < this.single.images; i++) {
-      images.push(this.single.url + '/' + this.single.imagename + (i + 1) + '.jpg');
-    }
-    this.single.imageArray = images;
-    console.log('this album!', this.single);
-
-    //this.visible = true;
-
-    // tell image component to display these images
-    this.imagesComponent.resetAndPopulate(this.single);
-  }
-
-
 }

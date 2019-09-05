@@ -8,13 +8,29 @@
 
 }
 
+.flag{
+  width: 17px;
+  height: 15px;
+
+}
 .tw{
   width: 500px;
 }
-
+.t-year{
+  width: 50px;
+  text-align:left;
+}
+.t-country{
+  width: 75px;
+  text-align:left;
+}
 .t-width{
   width: 150px;
   text-align:left;
+}
+
+.head-color{
+  background-color: darkgrey;
 }
 
 table, th, td {

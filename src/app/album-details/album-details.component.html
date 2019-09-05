@@ -2,18 +2,18 @@
 <div class="album-item">
   <table>
     <tr class="tw">
-      <th class="t-width" (click)="changeSort('name')">Name</th>
-      <th class="t-width" (click)="changeSort('country')">Country</th>
-      <th class="t-width" (click)="changeSort('year')">Year</th>
-      <th class="t-width" (click)="changeSort('label')">Label</th>
-      <th class="t-info" (click)="changeSort('info')">Info</th>
+      <th  class="head-color t-width" (click)="changeSort('name')">Name</th>
+      <th class="head-color t-country" (click)="changeSort('country')">Country</th>
+      <th  class="head-color t-year" (click)="changeSort('year')">Year</th>
+      <th class="head-color t-width" (click)="changeSort('label')">Label</th>
+      <th class="head-color t-width" (click)="changeSort('info')">Info</th>
     </tr>
     <tr class="tw" *ngFor="let albums of data"(click)="open(albums.id, albums.name)">
       <td class="name-bold">
         {{ albums.name }}
       </td>
       <td>
-        {{ albums.country }}
+       <img src= {{albums.flag}}  class="flag"> {{ albums.country }}
       </td>
       <td>
         {{ albums.year }}
