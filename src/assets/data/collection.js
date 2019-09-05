@@ -1024,7 +1024,7 @@ export var collection = {
         year: 1985,
         country: 'USA',
         label: 'Megaforce',
-        info: '2nd issue with translucent green vinyl',
+        info: '2nd issue with translucent brown vinyl',
         url: "../../assets/photos/12singles/whiplash/usa-brown",
         images: 6,
         imagename: "usa-"
@@ -1279,7 +1279,10 @@ export var collection = {
         year: 1988,
         country: 'Holland',
         label: 'Phonogram/Vertigo',
-        info: "White label"
+        info: "White label",
+        url: "../../assets/photos/12singles/harvesterofsorrow/1988/holland",
+        images: 5,
+        imagename: "holland-"
       },
       {
         id: 112,
@@ -1287,7 +1290,10 @@ export var collection = {
         year: 1988,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "Skull labels"
+        info: "Skull labels",
+        url: "../../assets/photos/12singles/harvesterofsorrow/1988/uk",
+        images: 5,
+        imagename: "uk-"
       }
     ],
     one: [
@@ -1297,7 +1303,11 @@ export var collection = {
         year: 1989,
         country: 'Europe',
         label: 'Phonogram/Vertigo',
-        info: "Yellow labels"
+        info: "Yellow labels",
+        url: "../../assets/photos/12singles/one/1989/europe",
+        images: 4,
+        imagename: "europe-"
+
       },
       {
         id: 114,
@@ -1305,7 +1315,10 @@ export var collection = {
         year: 1989,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "10 inch picture disc w/insert"
+        info: "10 inch picture disc w/insert",
+        url: "../../assets/photos/12singles/one/1989/uk-ten-inch",
+        images: 4,
+        imagename: "uk-"
       },
       {
         id: 115,
@@ -1313,7 +1326,10 @@ export var collection = {
         year: 1989,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "Brown label"
+        info: "Brown label",
+        url: "../../assets/photos/12singles/one/1989/uk",
+        images: 5,
+        imagename: "uk-"
       },
       {
         id: 116,
@@ -1321,7 +1337,10 @@ export var collection = {
         year: 1989,
         country: 'UK',
         label: 'Phonogram/Vertigo',
-        info: "Gatefold w/black cover w/sticker"
+        info: "Gatefold w/black cover w/sticker",
+        url: "../../assets/photos/12singles/one/1989/uk-gatefold",
+        images: 9,
+        imagename: "uk-"
       }
     ],
     justicesingle: [
@@ -1339,141 +1358,209 @@ export var collection = {
     ],
     entersandman: [
       {
+        id: 118,
         name: "Enter Sandman",
         year: 1991,
         country: 'Holland',
         label: 'Vertigo',
-        info: "3 tracks"
+        info: "3 tracks",
+        url: "../../assets/photos/12singles/entersandman/1991/holland3track",
+        images: 5,
+        imagename: "hollandthree-"
       },
       {
+        id: 119,
         name: "Enter Sandman",
         year: 1991,
         country: 'Holland',
         label: 'Vertigo',
-        info: "4 tracks"
+        info: "4 tracks",
+        url: "../../assets/photos/12singles/entersandman/1991/holland4track",
+        images: 5,
+        imagename: "hollandfour-"
       },
       {
+        id: 120,
         name: "Enter Sandman",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "3 tracks w/prints of each band member"
+        info: "3 tracks w/prints of each band member",
+        url: "../../assets/photos/12singles/entersandman/1991/uk3track",
+        images: 8,
+        imagename: "ukthree-"
       },
       {
+        id: 121,
         name: "Enter Sandman",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "4 tracks"
+        info: "4 tracks",
+        url: "../../assets/photos/12singles/entersandman/1991/uk4track",
+        images: 5,
+        imagename: "ukfour-"
       }
     ],
     unforgiven: [
       {
+        id: 122,
         name: "The Unforgiven",
         year: 1991,
         country: 'UK',
         label: 'Vertigo',
-        info: "w/warning sticker"
+        info: "w/warning sticker",
+        url: "../../assets/photos/12singles/unforgiven/1991/uk",
+        images: 5,
+        imagename: "uk-"
       }
     ],
     nothingelsematters: [
       {
+        id: 123,
         name: "Nothing Else Matters",
         year: 1992,
         country: 'UK',
         label: 'Vertigo',
-        info: "Swirl label"
+        info: "Swirl label",
+        url: "../../assets/photos/12singles/nem/1991/uk",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     whereverimayroam: [
       {
+        id: 124,
         name: "Wherever I May Roam",
         year: 1992,
         country: 'Argentina',
         label: 'Polygram',
-        info: "Promo - split promo w/pink sleeve"
+        info: "Promo - split promo w/pink sleeve",
+        url: "../../assets/photos/12singles/roam/1992/argentina-promo",
+        images: 4,
+        imagename: "promo-"
       },
       {
+        id: 125,
         name: "Wherever I May Roam",
         year: 1992,
         country: 'Germany',
         label: 'Vertigo',
-        info: ".."
+        info: "..",
+        url: "../../assets/photos/12singles/roam/1992/germany",
+        images: 4,
+        imagename: "germany-"
       },
       {
+        id: 126,
         name: "Wherever I May Roam",
         year: 1992,
         country: 'UK',
         label: 'Vertigo',
-        info: "Gatefold"
+        info: "Gatefold",
+        url: "../../assets/photos/12singles/roam/1992/uk",
+        images: 5,
+        imagename: "uk-"
       }
     ],
     sadbuttrue: [
       {
+        id: 127,
         name: "Sad But True",
         year: 1993,
         country: 'Germany',
         label: 'Vertigo',
-        info: "Picture disc"
+        info: "Picture disc",
+        url: "../../assets/photos/12singles/sadbuttrue/1993/germany-picture-disc",
+        images: 4,
+        imagename: "pic-"
       },
       {
+        id: 128,
         name: "Sad But True",
         year: 1993,
-        country: 'Germany',
+        country: 'UK',
         label: 'Vertigo',
-        info: "Picture disc, darker version?"
+        info: "white/swirl label",
+        url: "../../assets/photos/12singles/sadbuttrue/1993/uk",
+        images: 4,
+        imagename: "uk-"
       }
     ],
     onelive: [
       {
+        id: 129,
         name: "One (Live Shit)",
         year: 1994,
         country: 'Germany',
         label: 'Vertigo',
-        info: "Scary Guy picture disc, w/insert"
+        info: "Scary Guy picture disc, w/insert",
+        url: "../../assets/photos/12singles/onelive/1994/germany",
+        images: 4,
+        imagename: "pic-"
       }
     ],
     untilitsleeps: [
       {
+        id: 130,
         name: "Until It Sleeps",
         year: 1996,
         country: 'UK',
         label: 'Vertigo',
-        info: "10 inch red vinyl w/insert"
+        info: "10 inch red vinyl w/insert",
+        url: "../../assets/photos/12singles/untilitsleeps/1996/uk",
+        images: 3,
+        imagename: "uk-"
       }
     ],
     herooftheday: [
       {
+        id: 131,
         name: "Hero Of The Day",
         year: 1996,
         country: 'UK',
         label: 'Vertigo',
-        info: "w/silver embossed cover, stickered sleeve, ltd edition"
+        info: "w/silver embossed cover, stickered sleeve, ltd edition",
+        url: "../../assets/photos/12singles/hero/1996/uk",
+        images: 7,
+        imagename: "uk-"
       }
     ],
     frantic: [
       {
+        id: 132,
         name: "Frantic",
         year: 2003,
         country: 'UK',
         label: 'Vertigo',
-        info: "Promo - white label, no sleeve"
+        info: "Promo - white label, no sleeve",
+        url: "../../assets/photos/12singles/frantic/2003/uk-promo",
+        images: 4,
+        imagename: "promo-"
       },
       {
+        id: 133,
         name: "Frantic",
         year: 2003,
         country: 'UK',
         label: 'Vertigo',
-        info: ".."
+        info: "..",
+        url: "../../assets/photos/12singles/frantic/2003/uk",
+        images: 5,
+        imagename: "uk-"
       }
     ],
     theunnamedfeeling: [
       {
+        id: 134,
         name: "The Unnamed Feeling",
         year: 2003,
         country: 'UK',
         label: 'Vertigo',
-        info: "Picture disc"
+        info: "Picture disc",
+        url: "../../assets/photos/12singles/unnamedfeeling/2003/uk-picture-disc",
+        images: 2,
+        imagename: "pic-"
       }
     ]
   },
