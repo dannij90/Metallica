@@ -22,6 +22,9 @@ export class AlbumDetailsComponent implements OnInit {
   type: any;
   check: string;
   keyword: string;
+  dataInfo: any;
+
+  info: any;
   constructor(private route: Router, location: Location) {
     route.events.subscribe((val) => {
       if (location.path() !== '') {

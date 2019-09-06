@@ -1698,12 +1698,15 @@ export var collection = {
       }
     ]
   },
-  name: [
-    {
-      name: "Kill 'Em All"
+  info: {
+    killemall: {
+      text : "this is an introduction to Kill 'Em All",
+      releaseDate: "25th july 1983"
     },
-    {
-      name: "Ride The Lightning"
+    ridethelightning: {
+      text: "this is RTL test",
+      releaseDate: "some day in 1984"
     }
-  ]
+  }
+
 };
