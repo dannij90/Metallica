@@ -37,11 +37,14 @@ export class AlbumDetailsComponent implements OnInit {
       if (this.type === 'Albums') {
         this.check = location.path().split('/')[2];
         this.data = collection.albums[this.id];
+        this.dataInfo = collection.info[this.id];
       } else if (this.type === 'Singles') {
         this.check = location.path().split('/')[2]; //check 7 or 12
         this.id = location.path().split('/')[3];
         this.data = collection['singles' + this.check][this.id];
       }
+
+
 
     });
     // this.visible = false;

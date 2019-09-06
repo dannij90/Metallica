@@ -1701,12 +1701,57 @@ export var collection = {
   info: {
     killemall: {
       text : "this is an introduction to Kill 'Em All",
-      releaseDate: "25th july 1983"
+      releaseDate: "25th july 1983",
+      url: "../../assets/album-img/killemall.jpg"
     },
     ridethelightning: {
       text: "this is RTL test",
-      releaseDate: "some day in 1984"
+      releaseDate: "some day in 1984",
+      url: "../../assets/album-img/ridethelightning.jpg"
+    },
+    masterofpuppets: {
+      text: "some text about Master Of Puppets",
+      releaseDate: "some wonderful day in 1986",
+      url: "../../assets/album-img/masterofpuppets.jpg"
+    },
+    andjusticeforall: {
+      text: "some day in 1988",
+      releaseDate: "allah akbhar",
+      url: "../../assets/album-img/andjusticeforall.jpg"
+    },
+    blackalbum: {
+      text: "intro to Black album",
+      releaseDate: "1991"
+    },
+    load: {
+      text: "Load is great",
+      releaseDate: "1996 was the year"
+    },
+    reload: {
+      text: "ye buddy",
+      releaseDate: "I wanna rock and roll all night"
+    },
+    garageinc: {
+      text: "cover album",
+      releaseDate: "and party every day"
+    },
+    "s&m": {
+      text: "Symphony test",
+      releaseDate: "lala"
+    },
+    stanger: {
+      text: "very angry",
+      releaseDate : "back in 2003"
+    },
+    deathmagnetic : {
+      text: "coffin",
+      releaseDate : "2008 bruh"
+    },
+    hardwired : {
+      text: "latest album",
+      releaseDate : "2016 r some"
     }
+
   }
 
 };
