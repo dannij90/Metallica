@@ -10,12 +10,16 @@ export class AlbumsComponent implements OnInit {
 
   data: any;
   objectKeys = Object.keys;
+  info 
   constructor() { }
 
+  click(name) {
+
+  }
 
   ngOnInit() {
     this.data = collection.albums;
-
   }
+
 
 }
