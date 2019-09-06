@@ -10,6 +10,8 @@ import { AlbumDetailsComponent } from './album-details/album-details.component';
 import { MakeWordPrettyComponent } from './make-word-pretty/make-word-pretty.component';
 import { ImagesComponent } from './images/images.component';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap'; // for bootstrap
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +20,12 @@ import { ImagesComponent } from './images/images.component';
     BoxSetComponent,
     AlbumDetailsComponent,
     MakeWordPrettyComponent,
-    ImagesComponent
+    ImagesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

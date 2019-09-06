@@ -6,7 +6,7 @@ html, body{
   margin: 0;
 }
 // container is navigation bar and the main content left of it
-.container{
+.main-container{
   height: 90%;
   background-color: lightgrey;
   display: grid;
@@ -14,13 +14,13 @@ html, body{
   grid-template-rows: auto;
 }
 // css for the navigation bar on the left
-.navbar{
+.custom-navbar{
+  max-height: 100%;
   ul{
     list-style-type:none;
     padding-inline-start: 0px;
     margin-block-start:0em;
   }
-
   background-color:rgb(255, 214, 214);
 }
 

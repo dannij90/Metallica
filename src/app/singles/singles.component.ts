@@ -25,7 +25,7 @@ export class SinglesComponent implements OnInit, OnChanges {
   id: string;
 
   ngOnInit() {
-
+    console.log('hello world');
   }
 
   ngOnChanges(changes: SimpleChanges) {
